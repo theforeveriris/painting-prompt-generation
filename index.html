@@ -65,7 +65,7 @@
             padding: 10px 16px;
             border: none;
             border-right: 1px solid var(--border);
-            background: var(--bg-secondary);
+            background: transparent;
             color: var(--text-secondary);
             font-family: 'Noto Sans SC', sans-serif;
             font-size: 0.8rem;
@@ -73,6 +73,7 @@
             cursor: pointer;
             transition: all 0.15s ease;
             white-space: nowrap;
+            border-radius: 4px;
         }
 
         .main-tab:last-child {
@@ -146,7 +147,7 @@
 
         .tag {
             padding: 4px 10px;
-            background: var(--bg-secondary);
+            background: transparent;
             color: var(--text-secondary);
             font-family: 'Noto Sans SC', sans-serif;
             font-size: 0.78rem;
@@ -154,11 +155,12 @@
             cursor: pointer;
             transition: all 0.1s ease;
             user-select: none;
-            border: none;
+            border: 1px solid var(--border);
+            border-radius: 4px;
         }
 
         .tag:active {
-            background: var(--bg-tertiary);
+            background: var(--bg-secondary);
         }
 
         .tag.selected {
@@ -252,7 +254,7 @@
         }
 
         .prompt-preview {
-            background: var(--bg-secondary);
+            background: var(--bg);
             border: 1px solid var(--border);
             padding: 8px 12px;
             font-family: 'Noto Sans SC', sans-serif;
@@ -263,6 +265,7 @@
             overflow-y: auto;
             line-height: 1.5;
             word-break: break-word;
+            border-radius: 4px;
         }
 
         .prompt-preview:empty::before {
@@ -292,6 +295,7 @@
             cursor: pointer;
             transition: all 0.15s ease;
             text-align: center;
+            border-radius: 4px;
         }
 
         .btn-primary {
@@ -352,6 +356,7 @@
             transition: all 0.2s ease;
             opacity: 0;
             transform: scale(0);
+            border-radius: 4px;
         }
 
         .selected-count.show {
