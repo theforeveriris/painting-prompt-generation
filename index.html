@@ -39,32 +39,6 @@
             padding-bottom: 60px;
         }
 
-        /* Header */
-        .header {
-            background: var(--bg);
-            padding: 20px 16px 16px;
-            text-align: center;
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .header h1 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            letter-spacing: 1px;
-        }
-
-        .header .subtitle {
-            font-family: 'Noto Sans SC', sans-serif;
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            margin-top: 2px;
-            font-weight: 300;
-        }
-
         /* Main Tabs */
         .main-tabs {
             display: flex;
@@ -76,7 +50,7 @@
             scrollbar-width: none;
             -ms-overflow-style: none;
             position: sticky;
-            top: 69px;
+            top: 0;
             z-index: 99;
         }
 
@@ -347,12 +321,6 @@
 
         /* Desktop */
         @media (min-width: 768px) {
-            .header {
-                padding: 24px 24px 16px;
-            }
-            .header h1 {
-                font-size: 1.5rem;
-            }
             .main-tab {
                 padding: 12px 24px;
                 font-size: 0.85rem;
@@ -370,11 +338,6 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>动漫 AI 绘画提示词</h1>
-        <div class="subtitle">选择标签，一键生成专业级 AI 绘画提示词</div>
-    </div>
-
     <div class="main-tabs" id="mainTabs"></div>
 
     <div class="content" id="content"></div>
