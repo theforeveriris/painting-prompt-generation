@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Anime Prompt Generator - 动漫AI绘画提示词生成器</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #c084fc;
+            --primary-light: #e9d5ff;
+            --primary-dark: #a855f7;
+            --secondary: #f9a8d4;
+            --secondary-light: #fce7f3;
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --surface-hover: #f3f4f6;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --text-muted: #9ca3af;
+            --border: #e5e7eb;
+            --border-light: #f3f4f6;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --radius: 14px;
+            --radius-sm: 10px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Noto Serif SC', 'Songti SC', serif;
+            background: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding-bottom: 120px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 50%, #fafafa 100%);
+            padding: 24px 16px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-light);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            letter-spacing: 2px;
+        }
+
+        .header .subtitle {
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+            font-weight: 300;
+        }
+
+        /* Main Tabs */
+        .main-tabs {
+            display: flex;
+            overflow-x: auto;
+            gap: 8px;
+            padding: 12px 16px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border-light);
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            position: sticky;
+            top: 89px;
+            z-index: 99;
+        }
+
+        .main-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .main-tab {
+            flex-shrink: 0;
+            padding: 8px 18px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text-secondary);
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            white-space: nowrap;
+        }
+
+        .main-tab.active {
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+            border-color: var(--primary);
+            color: var(--primary-dark);
+        }
+
+        /* Content Area */
+        .content {
+            padding: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .category-section {
+            display: none;
+        }
+
+        .category-section.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Group */
+        .group {
+            margin-bottom: 20px;
+            background: var(--surface);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-light);
+            overflow: hidden;
+        }
+
+        .group-header {
+            padding: 14px 16px;
+            background: linear-gradient(90deg, var(--surface) 0%, #faf5ff 100%);
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .group-header h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .group-header .group-en {
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-weight: 300;
+        }
+
+        .group-body {
+            padding: 12px;
+        }
+
+        /* Tags */
+        .tags-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            padding: 6px 14px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text-secondary);
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 400;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+            position: relative;
+        }
+
+        .tag:active {
+            transform: scale(0.95);
+        }
+
+        .tag.selected {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-color: transparent;
+            box-shadow: 0 2px 8px rgba(192, 132, 252, 0.3);
+        }
+
+        .tag .tag-en {
+            font-size: 0.65rem;
+            opacity: 0.7;
+            margin-left: 4px;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-weight: 300;
+        }
+
+        /* Bottom Bar */
+        .bottom-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(16px);
+            border-top: 1px solid var(--border-light);
+            padding: 12px 16px 24px;
+            z-index: 200;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.04);
+        }
+
+        .bottom-bar-inner {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .prompt-preview {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 10px 14px;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            min-height: 44px;
+            max-height: 80px;
+            overflow-y: auto;
+            line-height: 1.5;
+            word-break: break-word;
+        }
+
+        .prompt-preview:empty::before {
+            content: '点击上方标签生成提示词...';
+            color: var(--text-muted);
+            font-weight: 300;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 12px;
+            border-radius: var(--radius-sm);
+            border: none;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            box-shadow: 0 2px 8px rgba(168, 85, 247, 0.25);
+        }
+
+        .btn-secondary {
+            background: var(--surface);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+        }
+
+        .btn:active {
+            transform: scale(0.97);
+            opacity: 0.9;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            background: rgba(31, 41, 55, 0.9);
+            color: white;
+            padding: 12px 24px;
+            border-radius: var(--radius-sm);
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.85rem;
+            z-index: 300;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(8px);
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        /* Selected count badge */
+        .selected-count {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            z-index: 150;
+            box-shadow: 0 2px 8px rgba(192, 132, 252, 0.35);
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        .selected-count.show {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* Desktop */
+        @media (min-width: 768px) {
+            .header {
+                padding: 32px 24px 24px;
+            }
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .content {
+                padding: 24px;
+            }
+            .main-tabs {
+                justify-content: center;
+                padding: 16px 24px;
+            }
+            .main-tab {
+                padding: 10px 24px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>动漫 AI 绘画提示词</h1>
+        <div class="subtitle">选择标签，一键生成专业级 AI 绘画提示词</div>
+    </div>
+
+    <div class="main-tabs" id="mainTabs"></div>
+
+    <div class="content" id="content"></div>
+
+    <div class="selected-count" id="selectedCount">0</div>
+
+    <div class="bottom-bar">
+        <div class="bottom-bar-inner">
+            <div class="prompt-preview" id="promptPreview"></div>
+            <div class="btn-group">
+                <button class="btn btn-secondary" id="btnClear">清空</button>
+                <button class="btn btn-primary" id="btnCopy">复制提示词</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        const DATA_FILES = [
+            'data/appearance.json',
+            'data/clothing.json',
+            'data/pose.json',
+            'data/scene.json',
+            'data/style.json',
+            'data/character.json'
+        ];
+
+        let categories = [];
+        let selectedTags = new Map();
+        let currentCategory = 0;
+
+        async function loadData() {
+            const promises = DATA_FILES.map(f => fetch(f).then(r => r.json()));
+            categories = await Promise.all(promises);
+            renderTabs();
+            renderCategory(0);
+            updatePreview();
+        }
+
+        function renderTabs() {
+            const container = document.getElementById('mainTabs');
+            container.innerHTML = categories.map((cat, i) => `
+                <button class="main-tab ${i === 0 ? 'active' : ''}" data-index="${i}">
+                    ${cat.category_name}
+                </button>
+            `).join('');
+
+            container.querySelectorAll('.main-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const idx = parseInt(tab.dataset.index);
+                    switchCategory(idx);
+                });
+            });
+        }
+
+        function switchCategory(idx) {
+            currentCategory = idx;
+            document.querySelectorAll('.main-tab').forEach((t, i) => {
+                t.classList.toggle('active', i === idx);
+            });
+            renderCategory(idx);
+        }
+
+        function renderCategory(idx) {
+            const cat = categories[idx];
+            const container = document.getElementById('content');
+            container.innerHTML = `
+                <div class="category-section active">
+                    ${cat.groups.map(g => renderGroup(g, cat.category)).join('')}
+                </div>
+            `;
+
+            container.querySelectorAll('.tag').forEach(tag => {
+                tag.addEventListener('click', () => toggleTag(tag));
+            });
+        }
+
+        function renderGroup(group, category) {
+            return `
+                <div class="group">
+                    <div class="group-header">
+                        <h3>${group.group_name}</h3>
+                        <span class="group-en">${group.group_name_en}</span>
+                    </div>
+                    <div class="group-body">
+                        <div class="tags-grid">
+                            ${group.tags.map(t => {
+                                const key = `${category}:${t.tag}`;
+                                const isSelected = selectedTags.has(key);
+                                return `
+                                    <span class="tag ${isSelected ? 'selected' : ''}"
+                                          data-category="${category}"
+                                          data-tag="${t.tag}"
+                                          data-tag-en="${t.tag_en}">
+                                        ${t.tag}
+                                        <span class="tag-en">${t.tag_en}</span>
+                                    </span>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleTag(el) {
+            const category = el.dataset.category;
+            const tag = el.dataset.tag;
+            const tagEn = el.dataset.tagEn;
+            const key = `${category}:${tag}`;
+
+            if (selectedTags.has(key)) {
+                selectedTags.delete(key);
+                el.classList.remove('selected');
+            } else {
+                selectedTags.set(key, { tag, tagEn, category });
+                el.classList.add('selected');
+            }
+
+            updatePreview();
+            updateCount();
+        }
+
+        function updatePreview() {
+            const preview = document.getElementById('promptPreview');
+            if (selectedTags.size === 0) {
+                preview.textContent = '';
+                return;
+            }
+            const tags = Array.from(selectedTags.values());
+            const prompt = tags.map(t => t.tagEn).join(', ');
+            preview.textContent = prompt;
+        }
+
+        function updateCount() {
+            const count = document.getElementById('selectedCount');
+            count.textContent = selectedTags.size;
+            count.classList.toggle('show', selectedTags.size > 0);
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 1800);
+        }
+
+        document.getElementById('btnCopy').addEventListener('click', async () => {
+            if (selectedTags.size === 0) {
+                showToast('请先选择标签');
+                return;
+            }
+            const tags = Array.from(selectedTags.values());
+            const prompt = tags.map(t => t.tagEn).join(', ');
+            try {
+                await navigator.clipboard.writeText(prompt);
+                showToast('已复制到剪贴板');
+            } catch {
+                showToast('复制失败，请手动复制');
+            }
+        });
+
+        document.getElementById('btnClear').addEventListener('click', () => {
+            selectedTags.clear();
+            document.querySelectorAll('.tag.selected').forEach(t => t.classList.remove('selected'));
+            updatePreview();
+            updateCount();
+            showToast('已清空');
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

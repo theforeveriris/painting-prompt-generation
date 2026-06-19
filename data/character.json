@@ -1,0 +1,91 @@
+{
+  "category": "character",
+  "category_name": "角色属性",
+  "category_name_en": "Character",
+  "groups": [
+    {
+      "group_name": "种族",
+      "group_name_en": "Race",
+      "tags": [
+        {"tag": "人类", "tag_en": "human", "weight": "normal"},
+        {"tag": "精灵", "tag_en": "elf", "weight": "normal"},
+        {"tag": "兽人", "tag_en": "beastman", "weight": "normal"},
+        {"tag": "恶魔", "tag_en": "demon", "weight": "normal"},
+        {"tag": "天使", "tag_en": "angel", "weight": "normal"},
+        {"tag": "吸血鬼", "tag_en": "vampire", "weight": "normal"},
+        {"tag": "狼人", "tag_en": "werewolf", "weight": "normal"},
+        {"tag": "龙人", "tag_en": "dragonkin", "weight": "normal"},
+        {"tag": "机器人", "tag_en": "robot", "weight": "normal"},
+        {"tag": "人偶", "tag_en": "doll", "weight": "normal"},
+        {"tag": "幽灵", "tag_en": "ghost", "weight": "normal"},
+        {"tag": "僵尸", "tag_en": "zombie", "weight": "normal"},
+        {"tag": "猫娘", "tag_en": "cat girl", "weight": "normal"},
+        {"tag": "狐娘", "tag_en": "fox girl", "weight": "normal"},
+        {"tag": "兔娘", "tag_en": "bunny girl", "weight": "normal"},
+        {"tag": "人鱼", "tag_en": "mermaid", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "性格",
+      "group_name_en": "Personality",
+      "tags": [
+        {"tag": "活泼", "tag_en": "energetic", "weight": "normal"},
+        {"tag": "文静", "tag_en": "quiet", "weight": "normal"},
+        {"tag": "傲娇", "tag_en": "tsundere", "weight": "normal"},
+        {"tag": "病娇", "tag_en": "yandere", "weight": "normal"},
+        {"tag": "天然呆", "tag_en": "airhead", "weight": "normal"},
+        {"tag": "腹黑", "tag_en": "scheming", "weight": "normal"},
+        {"tag": "元气", "tag_en": "genki", "weight": "normal"},
+        {"tag": "冷酷", "tag_en": "cold", "weight": "normal"},
+        {"tag": "温柔", "tag_en": "gentle", "weight": "normal"},
+        {"tag": "粗暴", "tag_en": "rough", "weight": "normal"},
+        {"tag": "胆小", "tag_en": "timid", "weight": "normal"},
+        {"tag": "勇敢", "tag_en": "brave", "weight": "normal"},
+        {"tag": "懒惰", "tag_en": "lazy", "weight": "normal"},
+        {"tag": "认真", "tag_en": "serious", "weight": "normal"},
+        {"tag": "调皮", "tag_en": "mischievous", "weight": "normal"},
+        {"tag": "成熟", "tag_en": "mature", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "职业",
+      "group_name_en": "Occupation",
+      "tags": [
+        {"tag": "学生", "tag_en": "student", "weight": "normal"},
+        {"tag": "老师", "tag_en": "teacher", "weight": "normal"},
+        {"tag": "骑士", "tag_en": "knight", "weight": "normal"},
+        {"tag": "魔法师", "tag_en": "mage", "weight": "normal"},
+        {"tag": "剑士", "tag_en": "swordsman", "weight": "normal"},
+        {"tag": "弓箭手", "tag_en": "archer", "weight": "normal"},
+        {"tag": "刺客", "tag_en": "assassin", "weight": "normal"},
+        {"tag": "牧师", "tag_en": "priest", "weight": "normal"},
+        {"tag": "商人", "tag_en": "merchant", "weight": "normal"},
+        {"tag": "冒险者", "tag_en": "adventurer", "weight": "normal"},
+        {"tag": "公主", "tag_en": "princess", "weight": "normal"},
+        {"tag": "王子", "tag_en": "prince", "weight": "normal"},
+        {"tag": "女仆", "tag_en": "maid", "weight": "normal"},
+        {"tag": "管家", "tag_en": "butler", "weight": "normal"},
+        {"tag": "偶像", "tag_en": "idol", "weight": "normal"},
+        {"tag": "歌手", "tag_en": "singer", "weight": "normal"},
+        {"tag": "画家", "tag_en": "painter", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "属性",
+      "group_name_en": "Attributes",
+      "tags": [
+        {"tag": "火属性", "tag_en": "fire attribute", "weight": "normal"},
+        {"tag": "水属性", "tag_en": "water attribute", "weight": "normal"},
+        {"tag": "风属性", "tag_en": "wind attribute", "weight": "normal"},
+        {"tag": "土属性", "tag_en": "earth attribute", "weight": "normal"},
+        {"tag": "雷属性", "tag_en": "lightning attribute", "weight": "normal"},
+        {"tag": "冰属性", "tag_en": "ice attribute", "weight": "normal"},
+        {"tag": "光属性", "tag_en": "light attribute", "weight": "normal"},
+        {"tag": "暗属性", "tag_en": "dark attribute", "weight": "normal"},
+        {"tag": "治愈系", "tag_en": "healing type", "weight": "normal"},
+        {"tag": "战斗系", "tag_en": "combat type", "weight": "normal"},
+        {"tag": "辅助系", "tag_en": "support type", "weight": "normal"}
+      ]
+    }
+  ]
+}

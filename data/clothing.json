@@ -1,0 +1,111 @@
+{
+  "category": "clothing",
+  "category_name": "服装搭配",
+  "category_name_en": "Clothing",
+  "groups": [
+    {
+      "group_name": "日常服装",
+      "group_name_en": "Daily Wear",
+      "tags": [
+        {"tag": "T恤", "tag_en": "t-shirt", "weight": "normal"},
+        {"tag": "衬衫", "tag_en": "shirt", "weight": "normal"},
+        {"tag": "连衣裙", "tag_en": "dress", "weight": "normal"},
+        {"tag": "短裙", "tag_en": "skirt", "weight": "normal"},
+        {"tag": "长裙", "tag_en": "long skirt", "weight": "normal"},
+        {"tag": "牛仔裤", "tag_en": "jeans", "weight": "normal"},
+        {"tag": "短裤", "tag_en": "shorts", "weight": "normal"},
+        {"tag": "运动服", "tag_en": "sportswear", "weight": "normal"},
+        {"tag": "卫衣", "tag_en": "hoodie", "weight": "normal"},
+        {"tag": "毛衣", "tag_en": "sweater", "weight": "normal"},
+        {"tag": "外套", "tag_en": "coat", "weight": "normal"},
+        {"tag": "风衣", "tag_en": "trench coat", "weight": "normal"},
+        {"tag": "夹克", "tag_en": "jacket", "weight": "normal"},
+        {"tag": "背心", "tag_en": "vest", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "校服",
+      "group_name_en": "School Uniform",
+      "tags": [
+        {"tag": "水手服", "tag_en": "sailor uniform", "weight": "normal"},
+        {"tag": "西装校服", "tag_en": "blazer uniform", "weight": "normal"},
+        {"tag": "体操服", "tag_en": "gym uniform", "weight": "normal"},
+        {"tag": "泳装", "tag_en": "swimsuit", "weight": "normal"},
+        {"tag": "学生泳装", "tag_en": "school swimsuit", "weight": "normal"},
+        {"tag": "制服裙", "tag_en": "uniform skirt", "weight": "normal"},
+        {"tag": "领结", "tag_en": "bow tie", "weight": "normal"},
+        {"tag": "领带", "tag_en": "necktie", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "职业装",
+      "group_name_en": "Professional",
+      "tags": [
+        {"tag": "西装", "tag_en": "suit", "weight": "normal"},
+        {"tag": "OL装", "tag_en": "office lady outfit", "weight": "normal"},
+        {"tag": "女仆装", "tag_en": "maid outfit", "weight": "normal"},
+        {"tag": "护士服", "tag_en": "nurse uniform", "weight": "normal"},
+        {"tag": "警服", "tag_en": "police uniform", "weight": "normal"},
+        {"tag": "军装", "tag_en": "military uniform", "weight": "normal"},
+        {"tag": "厨师服", "tag_en": "chef uniform", "weight": "normal"},
+        {"tag": "和服", "tag_en": "kimono", "weight": "normal"},
+        {"tag": "浴衣", "tag_en": "yukata", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "奇幻服装",
+      "group_name_en": "Fantasy",
+      "tags": [
+        {"tag": "魔法少女服装", "tag_en": "magical girl outfit", "weight": "normal"},
+        {"tag": "盔甲", "tag_en": "armor", "weight": "normal"},
+        {"tag": "斗篷", "tag_en": "cloak", "weight": "normal"},
+        {"tag": "法袍", "tag_en": "robe", "weight": "normal"},
+        {"tag": "精灵装", "tag_en": "elf outfit", "weight": "normal"},
+        {"tag": "兽耳装", "tag_en": "kemonomimi outfit", "weight": "normal"},
+        {"tag": "哥特装", "tag_en": "gothic outfit", "weight": "normal"},
+        {"tag": "洛丽塔", "tag_en": "lolita fashion", "weight": "normal"},
+        {"tag": "中华风", "tag_en": "chinese style", "weight": "normal"},
+        {"tag": "西洋风", "tag_en": "western style", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "配饰",
+      "group_name_en": "Accessories",
+      "tags": [
+        {"tag": "眼镜", "tag_en": "glasses", "weight": "normal"},
+        {"tag": "墨镜", "tag_en": "sunglasses", "weight": "normal"},
+        {"tag": "帽子", "tag_en": "hat", "weight": "normal"},
+        {"tag": "贝雷帽", "tag_en": "beret", "weight": "normal"},
+        {"tag": "猫耳", "tag_en": "cat ears", "weight": "normal"},
+        {"tag": "兔耳", "tag_en": "bunny ears", "weight": "normal"},
+        {"tag": "发带", "tag_en": "hairband", "weight": "normal"},
+        {"tag": "发夹", "tag_en": "hair clip", "weight": "normal"},
+        {"tag": "项链", "tag_en": "necklace", "weight": "normal"},
+        {"tag": "耳环", "tag_en": "earrings", "weight": "normal"},
+        {"tag": "手链", "tag_en": "bracelet", "weight": "normal"},
+        {"tag": "戒指", "tag_en": "ring", "weight": "normal"},
+        {"tag": "围巾", "tag_en": "scarf", "weight": "normal"},
+        {"tag": "手套", "tag_en": "gloves", "weight": "normal"},
+        {"tag": "长筒袜", "tag_en": "thigh-highs", "weight": "normal"},
+        {"tag": "过膝袜", "tag_en": "over-knee socks", "weight": "normal"},
+        {"tag": "丝袜", "tag_en": "stockings", "weight": "normal"},
+        {"tag": "腰带", "tag_en": "belt", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "鞋子",
+      "group_name_en": "Footwear",
+      "tags": [
+        {"tag": "运动鞋", "tag_en": "sneakers", "weight": "normal"},
+        {"tag": "皮鞋", "tag_en": "leather shoes", "weight": "normal"},
+        {"tag": "靴子", "tag_en": "boots", "weight": "normal"},
+        {"tag": "长靴", "tag_en": "knee-high boots", "weight": "normal"},
+        {"tag": "凉鞋", "tag_en": "sandals", "weight": "normal"},
+        {"tag": "高跟鞋", "tag_en": "high heels", "weight": "normal"},
+        {"tag": "木屐", "tag_en": "geta", "weight": "normal"},
+        {"tag": "拖鞋", "tag_en": "slippers", "weight": "normal"},
+        {"tag": "赤脚", "tag_en": "barefoot", "weight": "normal"}
+      ]
+    }
+  ]
+}

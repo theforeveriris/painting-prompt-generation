@@ -1,0 +1,96 @@
+{
+  "category": "pose",
+  "category_name": "姿势动作",
+  "category_name_en": "Pose & Action",
+  "groups": [
+    {
+      "group_name": "基础姿势",
+      "group_name_en": "Basic Poses",
+      "tags": [
+        {"tag": "站立", "tag_en": "standing", "weight": "normal"},
+        {"tag": "坐姿", "tag_en": "sitting", "weight": "normal"},
+        {"tag": "跪姿", "tag_en": "kneeling", "weight": "normal"},
+        {"tag": "躺姿", "tag_en": "lying down", "weight": "normal"},
+        {"tag": "趴姿", "tag_en": "prone", "weight": "normal"},
+        {"tag": "侧卧", "tag_en": "side lying", "weight": "normal"},
+        {"tag": "盘腿坐", "tag_en": "cross-legged", "weight": "normal"},
+        {"tag": "蹲姿", "tag_en": "squatting", "weight": "normal"},
+        {"tag": "单脚站立", "tag_en": "standing on one leg", "weight": "normal"},
+        {"tag": "倚靠", "tag_en": "leaning", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "手部动作",
+      "group_name_en": "Hand Gestures",
+      "tags": [
+        {"tag": "挥手", "tag_en": "waving", "weight": "normal"},
+        {"tag": "比耶", "tag_en": "peace sign", "weight": "normal"},
+        {"tag": "比心", "tag_en": "finger heart", "weight": "normal"},
+        {"tag": "托腮", "tag_en": "hand on cheek", "weight": "normal"},
+        {"tag": "抱臂", "tag_en": "arms crossed", "weight": "normal"},
+        {"tag": "双手合十", "tag_en": "praying hands", "weight": "normal"},
+        {"tag": "捂嘴", "tag_en": "covering mouth", "weight": "normal"},
+        {"tag": "指向前方", "tag_en": "pointing", "weight": "normal"},
+        {"tag": "撩头发", "tag_en": "brushing hair", "weight": "normal"},
+        {"tag": "握拳", "tag_en": "clenched fist", "weight": "normal"},
+        {"tag": "张开手", "tag_en": "open hand", "weight": "normal"},
+        {"tag": "OK手势", "tag_en": "ok sign", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "表情",
+      "group_name_en": "Expression",
+      "tags": [
+        {"tag": "微笑", "tag_en": "smile", "weight": "normal"},
+        {"tag": "大笑", "tag_en": "laughing", "weight": "normal"},
+        {"tag": "害羞", "tag_en": "shy", "weight": "normal"},
+        {"tag": "生气", "tag_en": "angry", "weight": "normal"},
+        {"tag": "哭泣", "tag_en": "crying", "weight": "normal"},
+        {"tag": "惊讶", "tag_en": "surprised", "weight": "normal"},
+        {"tag": "困惑", "tag_en": "confused", "weight": "normal"},
+        {"tag": "困倦", "tag_en": "sleepy", "weight": "normal"},
+        {"tag": "调皮", "tag_en": "mischievous", "weight": "normal"},
+        {"tag": "冷漠", "tag_en": "indifferent", "weight": "normal"},
+        {"tag": "傲娇", "tag_en": "tsundere", "weight": "normal"},
+        {"tag": "呆萌", "tag_en": "dazed", "weight": "normal"},
+        {"tag": "吐舌", "tag_en": "tongue out", "weight": "normal"},
+        {"tag": "眨眼", "tag_en": "winking", "weight": "normal"},
+        {"tag": "脸红", "tag_en": "blushing", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "动态动作",
+      "group_name_en": "Dynamic Actions",
+      "tags": [
+        {"tag": "奔跑", "tag_en": "running", "weight": "normal"},
+        {"tag": "跳跃", "tag_en": "jumping", "weight": "normal"},
+        {"tag": "飞翔", "tag_en": "flying", "weight": "normal"},
+        {"tag": "战斗", "tag_en": "fighting", "weight": "normal"},
+        {"tag": "施法", "tag_en": "casting spell", "weight": "normal"},
+        {"tag": "拔剑", "tag_en": "drawing sword", "weight": "normal"},
+        {"tag": "射箭", "tag_en": "shooting arrow", "weight": "normal"},
+        {"tag": "跳舞", "tag_en": "dancing", "weight": "normal"},
+        {"tag": "唱歌", "tag_en": "singing", "weight": "normal"},
+        {"tag": "弹奏", "tag_en": "playing instrument", "weight": "normal"},
+        {"tag": "阅读", "tag_en": "reading", "weight": "normal"},
+        {"tag": "吃东西", "tag_en": "eating", "weight": "normal"},
+        {"tag": "睡觉", "tag_en": "sleeping", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "视角",
+      "group_name_en": "Perspective",
+      "tags": [
+        {"tag": "正面", "tag_en": "front view", "weight": "normal"},
+        {"tag": "侧面", "tag_en": "side view", "weight": "normal"},
+        {"tag": "背面", "tag_en": "back view", "weight": "normal"},
+        {"tag": "俯视", "tag_en": "from above", "weight": "normal"},
+        {"tag": "仰视", "tag_en": "from below", "weight": "normal"},
+        {"tag": "特写", "tag_en": "close-up", "weight": "normal"},
+        {"tag": "半身", "tag_en": "upper body", "weight": "normal"},
+        {"tag": "全身", "tag_en": "full body", "weight": "normal"},
+        {"tag": "大头照", "tag_en": "portrait", "weight": "normal"}
+      ]
+    }
+  ]
+}

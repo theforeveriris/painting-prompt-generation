@@ -1,0 +1,87 @@
+{
+  "category": "scene",
+  "category_name": "场景环境",
+  "category_name_en": "Scene & Environment",
+  "groups": [
+    {
+      "group_name": "室内场景",
+      "group_name_en": "Indoor",
+      "tags": [
+        {"tag": "卧室", "tag_en": "bedroom", "weight": "normal"},
+        {"tag": "客厅", "tag_en": "living room", "weight": "normal"},
+        {"tag": "教室", "tag_en": "classroom", "weight": "normal"},
+        {"tag": "图书馆", "tag_en": "library", "weight": "normal"},
+        {"tag": "厨房", "tag_en": "kitchen", "weight": "normal"},
+        {"tag": "浴室", "tag_en": "bathroom", "weight": "normal"},
+        {"tag": "咖啡厅", "tag_en": "cafe", "weight": "normal"},
+        {"tag": "餐厅", "tag_en": "restaurant", "weight": "normal"},
+        {"tag": "医院", "tag_en": "hospital", "weight": "normal"},
+        {"tag": "办公室", "tag_en": "office", "weight": "normal"},
+        {"tag": "商店", "tag_en": "shop", "weight": "normal"},
+        {"tag": "神社", "tag_en": "shrine", "weight": "normal"},
+        {"tag": "城堡", "tag_en": "castle", "weight": "normal"},
+        {"tag": "地下室", "tag_en": "basement", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "室外场景",
+      "group_name_en": "Outdoor",
+      "tags": [
+        {"tag": "公园", "tag_en": "park", "weight": "normal"},
+        {"tag": "街道", "tag_en": "street", "weight": "normal"},
+        {"tag": "海滩", "tag_en": "beach", "weight": "normal"},
+        {"tag": "森林", "tag_en": "forest", "weight": "normal"},
+        {"tag": "山脉", "tag_en": "mountains", "weight": "normal"},
+        {"tag": "湖泊", "tag_en": "lake", "weight": "normal"},
+        {"tag": "河流", "tag_en": "river", "weight": "normal"},
+        {"tag": "花园", "tag_en": "garden", "weight": "normal"},
+        {"tag": "樱花树下", "tag_en": "under cherry blossoms", "weight": "normal"},
+        {"tag": "竹林", "tag_en": "bamboo forest", "weight": "normal"},
+        {"tag": "草原", "tag_en": "grassland", "weight": "normal"},
+        {"tag": "沙漠", "tag_en": "desert", "weight": "normal"},
+        {"tag": "雪地", "tag_en": "snowy landscape", "weight": "normal"},
+        {"tag": "城市", "tag_en": "city", "weight": "normal"},
+        {"tag": "废墟", "tag_en": "ruins", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "时间天气",
+      "group_name_en": "Time & Weather",
+      "tags": [
+        {"tag": "早晨", "tag_en": "morning", "weight": "normal"},
+        {"tag": "正午", "tag_en": "noon", "weight": "normal"},
+        {"tag": "黄昏", "tag_en": "sunset", "weight": "normal"},
+        {"tag": "夜晚", "tag_en": "night", "weight": "normal"},
+        {"tag": "深夜", "tag_en": "midnight", "weight": "normal"},
+        {"tag": "晴天", "tag_en": "sunny", "weight": "normal"},
+        {"tag": "阴天", "tag_en": "cloudy", "weight": "normal"},
+        {"tag": "雨天", "tag_en": "rainy", "weight": "normal"},
+        {"tag": "雪天", "tag_en": "snowy", "weight": "normal"},
+        {"tag": "雾天", "tag_en": "foggy", "weight": "normal"},
+        {"tag": "雷暴", "tag_en": "thunderstorm", "weight": "normal"},
+        {"tag": "彩虹", "tag_en": "rainbow", "weight": "normal"},
+        {"tag": "星空", "tag_en": "starry sky", "weight": "normal"},
+        {"tag": "月夜", "tag_en": "moonlit night", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "氛围",
+      "group_name_en": "Atmosphere",
+      "tags": [
+        {"tag": "温馨", "tag_en": "warm", "weight": "normal"},
+        {"tag": "梦幻", "tag_en": "dreamy", "weight": "normal"},
+        {"tag": "神秘", "tag_en": "mysterious", "weight": "normal"},
+        {"tag": "恐怖", "tag_en": "horror", "weight": "normal"},
+        {"tag": "浪漫", "tag_en": "romantic", "weight": "normal"},
+        {"tag": "悲伤", "tag_en": "sad", "weight": "normal"},
+        {"tag": "欢乐", "tag_en": "joyful", "weight": "normal"},
+        {"tag": "紧张", "tag_en": "tense", "weight": "normal"},
+        {"tag": "宁静", "tag_en": "peaceful", "weight": "normal"},
+        {"tag": "热闹", "tag_en": "lively", "weight": "normal"},
+        {"tag": "孤独", "tag_en": "lonely", "weight": "normal"},
+        {"tag": "神圣", "tag_en": "sacred", "weight": "normal"},
+        {"tag": "邪恶", "tag_en": "evil", "weight": "normal"}
+      ]
+    }
+  ]
+}

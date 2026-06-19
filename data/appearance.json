@@ -1,0 +1,161 @@
+{
+  "category": "appearance",
+  "category_name": "外貌特征",
+  "category_name_en": "Appearance",
+  "groups": [
+    {
+      "group_name": "脸型与轮廓",
+      "group_name_en": "Face Shape & Contour",
+      "tags": [
+        {"tag": "圆脸", "tag_en": "round face", "weight": "normal"},
+        {"tag": "瓜子脸", "tag_en": "oval face", "weight": "normal"},
+        {"tag": "鹅蛋脸", "tag_en": "egg-shaped face", "weight": "normal"},
+        {"tag": "方脸", "tag_en": "square face", "weight": "normal"},
+        {"tag": "心形脸", "tag_en": "heart-shaped face", "weight": "normal"},
+        {"tag": "菱形脸", "tag_en": "diamond face", "weight": "normal"},
+        {"tag": "长脸", "tag_en": "long face", "weight": "normal"},
+        {"tag": "娃娃脸", "tag_en": "baby face", "weight": "normal"},
+        {"tag": "尖下巴", "tag_en": "pointed chin", "weight": "normal"},
+        {"tag": "双下巴", "tag_en": "double chin", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "眼睛",
+      "group_name_en": "Eyes",
+      "tags": [
+        {"tag": "大眼睛", "tag_en": "large eyes", "weight": "normal"},
+        {"tag": "小眼睛", "tag_en": "small eyes", "weight": "normal"},
+        {"tag": "杏眼", "tag_en": "almond eyes", "weight": "normal"},
+        {"tag": "丹凤眼", "tag_en": "phoenix eyes", "weight": "normal"},
+        {"tag": "桃花眼", "tag_en": "peach blossom eyes", "weight": "normal"},
+        {"tag": "下垂眼", "tag_en": "droopy eyes", "weight": "normal"},
+        {"tag": "吊眼", "tag_en": "upturned eyes", "weight": "normal"},
+        {"tag": "三白眼", "tag_en": "sanpaku eyes", "weight": "normal"},
+        {"tag": "异色瞳", "tag_en": "heterochromia", "weight": "normal"},
+        {"tag": "猫眼", "tag_en": "cat eyes", "weight": "normal"},
+        {"tag": "死鱼眼", "tag_en": "dead fish eyes", "weight": "normal"},
+        {"tag": "眯眯眼", "tag_en": "squinted eyes", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "眉毛",
+      "group_name_en": "Eyebrows",
+      "tags": [
+        {"tag": "细眉", "tag_en": "thin eyebrows", "weight": "normal"},
+        {"tag": "粗眉", "tag_en": "thick eyebrows", "weight": "normal"},
+        {"tag": "柳叶眉", "tag_en": "willow leaf eyebrows", "weight": "normal"},
+        {"tag": "一字眉", "tag_en": "straight eyebrows", "weight": "normal"},
+        {"tag": "剑眉", "tag_en": "sword eyebrows", "weight": "normal"},
+        {"tag": "弯眉", "tag_en": "curved eyebrows", "weight": "normal"},
+        {"tag": "八字眉", "tag_en": "sad eyebrows", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "鼻子",
+      "group_name_en": "Nose",
+      "tags": [
+        {"tag": "高鼻梁", "tag_en": "high nose bridge", "weight": "normal"},
+        {"tag": "塌鼻梁", "tag_en": "flat nose bridge", "weight": "normal"},
+        {"tag": "小鼻子", "tag_en": "small nose", "weight": "normal"},
+        {"tag": "鹰钩鼻", "tag_en": "hooked nose", "weight": "normal"},
+        {"tag": "蒜头鼻", "tag_en": "bulbous nose", "weight": "normal"},
+        {"tag": "翘鼻", "tag_en": "upturned nose", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "嘴唇",
+      "group_name_en": "Lips",
+      "tags": [
+        {"tag": "薄唇", "tag_en": "thin lips", "weight": "normal"},
+        {"tag": "厚唇", "tag_en": "thick lips", "weight": "normal"},
+        {"tag": "樱桃小嘴", "tag_en": "cherry lips", "weight": "normal"},
+        {"tag": "微笑唇", "tag_en": "smiling lips", "weight": "normal"},
+        {"tag": "唇珠", "tag_en": "lip bead", "weight": "normal"},
+        {"tag": "猫嘴", "tag_en": "cat mouth", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "发型",
+      "group_name_en": "Hairstyle",
+      "tags": [
+        {"tag": "长发", "tag_en": "long hair", "weight": "normal"},
+        {"tag": "短发", "tag_en": "short hair", "weight": "normal"},
+        {"tag": "中长发", "tag_en": "medium hair", "weight": "normal"},
+        {"tag": "双马尾", "tag_en": "twin tails", "weight": "normal"},
+        {"tag": "单马尾", "tag_en": "ponytail", "weight": "normal"},
+        {"tag": "丸子头", "tag_en": "bun", "weight": "normal"},
+        {"tag": "散发", "tag_en": "loose hair", "weight": "normal"},
+        {"tag": "编发", "tag_en": "braided hair", "weight": "normal"},
+        {"tag": "卷发", "tag_en": "curly hair", "weight": "normal"},
+        {"tag": "直发", "tag_en": "straight hair", "weight": "normal"},
+        {"tag": "呆毛", "tag_en": "ahoge", "weight": "normal"},
+        {"tag": "刘海", "tag_en": "bangs", "weight": "normal"},
+        {"tag": "齐刘海", "tag_en": "blunt bangs", "weight": "normal"},
+        {"tag": "斜刘海", "tag_en": "side bangs", "weight": "normal"},
+        {"tag": "空气刘海", "tag_en": "air bangs", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "发色",
+      "group_name_en": "Hair Color",
+      "tags": [
+        {"tag": "黑发", "tag_en": "black hair", "weight": "normal"},
+        {"tag": "金发", "tag_en": "blonde hair", "weight": "normal"},
+        {"tag": "棕发", "tag_en": "brown hair", "weight": "normal"},
+        {"tag": "银发", "tag_en": "silver hair", "weight": "normal"},
+        {"tag": "白发", "tag_en": "white hair", "weight": "normal"},
+        {"tag": "红发", "tag_en": "red hair", "weight": "normal"},
+        {"tag": "蓝发", "tag_en": "blue hair", "weight": "normal"},
+        {"tag": "粉发", "tag_en": "pink hair", "weight": "normal"},
+        {"tag": "紫发", "tag_en": "purple hair", "weight": "normal"},
+        {"tag": "绿发", "tag_en": "green hair", "weight": "normal"},
+        {"tag": "橙发", "tag_en": "orange hair", "weight": "normal"},
+        {"tag": "挑染", "tag_en": "highlighted hair", "weight": "normal"},
+        {"tag": "渐变发色", "tag_en": "gradient hair", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "肤色",
+      "group_name_en": "Skin Tone",
+      "tags": [
+        {"tag": "白皙", "tag_en": "pale skin", "weight": "normal"},
+        {"tag": "小麦色", "tag_en": "wheat skin", "weight": "normal"},
+        {"tag": "黝黑", "tag_en": "dark skin", "weight": "normal"},
+        {"tag": "健康色", "tag_en": "healthy skin", "weight": "normal"},
+        {"tag": "冷白皮", "tag_en": "cool white skin", "weight": "normal"},
+        {"tag": "暖黄皮", "tag_en": "warm yellow skin", "weight": "normal"},
+        {"tag": "晒痕", "tag_en": "tan lines", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "身材",
+      "group_name_en": "Body Type",
+      "tags": [
+        {"tag": "苗条", "tag_en": "slim", "weight": "normal"},
+        {"tag": "丰满", "tag_en": "plump", "weight": "normal"},
+        {"tag": "高挑", "tag_en": "tall", "weight": "normal"},
+        {"tag": "娇小", "tag_en": "petite", "weight": "normal"},
+        {"tag": "肌肉", "tag_en": "muscular", "weight": "normal"},
+        {"tag": "肥胖", "tag_en": "chubby", "weight": "normal"},
+        {"tag": "巨乳", "tag_en": "large breasts", "weight": "normal"},
+        {"tag": "贫乳", "tag_en": "small breasts", "weight": "normal"},
+        {"tag": "长腿", "tag_en": "long legs", "weight": "normal"},
+        {"tag": "细腰", "tag_en": "slender waist", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "年龄",
+      "group_name_en": "Age",
+      "tags": [
+        {"tag": "萝莉", "tag_en": "loli", "weight": "normal"},
+        {"tag": "少女", "tag_en": "young girl", "weight": "normal"},
+        {"tag": "御姐", "tag_en": "mature woman", "weight": "normal"},
+        {"tag": "正太", "tag_en": "shota", "weight": "normal"},
+        {"tag": "少年", "tag_en": "young boy", "weight": "normal"},
+        {"tag": "大叔", "tag_en": "middle-aged man", "weight": "normal"},
+        {"tag": "老人", "tag_en": "elderly", "weight": "normal"},
+        {"tag": "幼女", "tag_en": "little girl", "weight": "normal"}
+      ]
+    }
+  ]
+}

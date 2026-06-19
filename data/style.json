@@ -1,0 +1,72 @@
+{
+  "category": "style",
+  "category_name": "画风风格",
+  "category_name_en": "Art Style",
+  "groups": [
+    {
+      "group_name": "主流画风",
+      "group_name_en": "Mainstream",
+      "tags": [
+        {"tag": "日式动画", "tag_en": "anime style", "weight": "normal"},
+        {"tag": "赛璐璐", "tag_en": "cel shading", "weight": "normal"},
+        {"tag": "厚涂", "tag_en": "thick paint", "weight": "normal"},
+        {"tag": "平涂", "tag_en": "flat color", "weight": "normal"},
+        {"tag": "水彩", "tag_en": "watercolor", "weight": "normal"},
+        {"tag": "油画", "tag_en": "oil painting", "weight": "normal"},
+        {"tag": "素描", "tag_en": "sketch", "weight": "normal"},
+        {"tag": "线稿", "tag_en": "line art", "weight": "normal"},
+        {"tag": "像素风", "tag_en": "pixel art", "weight": "normal"},
+        {"tag": "3D渲染", "tag_en": "3D render", "weight": "normal"},
+        {"tag": "Q版", "tag_en": "chibi", "weight": "normal"},
+        {"tag": "写实", "tag_en": "realistic", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "知名风格",
+      "group_name_en": "Famous Styles",
+      "tags": [
+        {"tag": "宫崎骏风格", "tag_en": "Ghibli style", "weight": "normal"},
+        {"tag": "新海诚风格", "tag_en": "Makoto Shinkai style", "weight": "normal"},
+        {"tag": "京阿尼风格", "tag_en": "Kyoto Animation style", "weight": "normal"},
+        {"tag": "型月风格", "tag_en": "Type-Moon style", "weight": "normal"},
+        {"tag": "P站风格", "tag_en": "Pixiv style", "weight": "normal"},
+        {"tag": "复古动画", "tag_en": "retro anime", "weight": "normal"},
+        {"tag": "80年代风", "tag_en": "80s style", "weight": "normal"},
+        {"tag": "90年代风", "tag_en": "90s style", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "特殊效果",
+      "group_name_en": "Special Effects",
+      "tags": [
+        {"tag": "发光", "tag_en": "glowing", "weight": "normal"},
+        {"tag": "粒子效果", "tag_en": "particle effects", "weight": "normal"},
+        {"tag": "光晕", "tag_en": "lens flare", "weight": "normal"},
+        {"tag": "景深", "tag_en": "bokeh", "weight": "normal"},
+        {"tag": "动态模糊", "tag_en": "motion blur", "weight": "normal"},
+        {"tag": "故障艺术", "tag_en": "glitch art", "weight": "normal"},
+        {"tag": "全息", "tag_en": "holographic", "weight": "normal"},
+        {"tag": "霓虹", "tag_en": "neon", "weight": "normal"},
+        {"tag": "赛博朋克", "tag_en": "cyberpunk", "weight": "normal"},
+        {"tag": "蒸汽波", "tag_en": "vaporwave", "weight": "normal"},
+        {"tag": "故障风", "tag_en": "distorted", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "质量修饰",
+      "group_name_en": "Quality",
+      "tags": [
+        {"tag": "高品质", "tag_en": "high quality", "weight": "normal"},
+        {"tag": "超精细", "tag_en": "ultra detailed", "weight": "normal"},
+        {"tag": " masterpiece", "tag_en": "masterpiece", "weight": "normal"},
+        {"tag": "最佳画质", "tag_en": "best quality", "weight": "normal"},
+        {"tag": "8K", "tag_en": "8K resolution", "weight": "normal"},
+        {"tag": "4K", "tag_en": "4K resolution", "weight": "normal"},
+        {"tag": "精细背景", "tag_en": "detailed background", "weight": "normal"},
+        {"tag": "精细面部", "tag_en": "detailed face", "weight": "normal"},
+        {"tag": "精细眼睛", "tag_en": "detailed eyes", "weight": "normal"},
+        {"tag": "精细头发", "tag_en": "detailed hair", "weight": "normal"}
+      ]
+    }
+  ]
+}
