@@ -4,83 +4,130 @@
   "category_name_en": "Scene & Environment",
   "groups": [
     {
+      "group_name": "背景类型",
+      "group_name_en": "Background Type",
+      "tags": [
+        {"tag": "简单背景", "tag_en": "simple background", "weight": "normal"},
+        {"tag": "白色背景", "tag_en": "white background", "weight": "normal"},
+        {"tag": "黑色背景", "tag_en": "black background", "weight": "normal"},
+        {"tag": "渐变背景", "tag_en": "gradient background", "weight": "normal"},
+        {"tag": "抽象背景", "tag_en": "abstract background", "weight": "normal"}
+      ]
+    },
+    {
       "group_name": "室内场景",
       "group_name_en": "Indoor",
       "tags": [
-        {"tag": "卧室", "tag_en": "bedroom", "weight": "normal"},
-        {"tag": "客厅", "tag_en": "living room", "weight": "normal"},
+        {"tag": "室内", "tag_en": "indoors", "weight": "normal"},
+        {"tag": "学校", "tag_en": "school", "weight": "normal"},
         {"tag": "教室", "tag_en": "classroom", "weight": "normal"},
-        {"tag": "图书馆", "tag_en": "library", "weight": "normal"},
+        {"tag": "卧室", "tag_en": "bedroom", "weight": "normal"},
         {"tag": "厨房", "tag_en": "kitchen", "weight": "normal"},
-        {"tag": "浴室", "tag_en": "bathroom", "weight": "normal"},
-        {"tag": "咖啡厅", "tag_en": "cafe", "weight": "normal"},
-        {"tag": "餐厅", "tag_en": "restaurant", "weight": "normal"},
-        {"tag": "医院", "tag_en": "hospital", "weight": "normal"},
-        {"tag": "办公室", "tag_en": "office", "weight": "normal"},
-        {"tag": "商店", "tag_en": "shop", "weight": "normal"},
+        {"tag": "图书馆", "tag_en": "library", "weight": "normal"},
+        {"tag": "医务室", "tag_en": "infirmary", "weight": "normal"},
         {"tag": "神社", "tag_en": "shrine", "weight": "normal"},
+        {"tag": "寺庙", "tag_en": "temple", "weight": "normal"},
+        {"tag": "教堂", "tag_en": "church", "weight": "normal"},
         {"tag": "城堡", "tag_en": "castle", "weight": "normal"},
-        {"tag": "地下室", "tag_en": "basement", "weight": "normal"}
+        {"tag": "王座厅", "tag_en": "throne room", "weight": "normal"},
+        {"tag": "地牢", "tag_en": "dungeon", "weight": "normal"},
+        {"tag": "实验室", "tag_en": "laboratory", "weight": "normal"},
+        {"tag": "工坊", "tag_en": "workshop", "weight": "normal"}
       ]
     },
     {
       "group_name": "室外场景",
       "group_name_en": "Outdoor",
       "tags": [
-        {"tag": "公园", "tag_en": "park", "weight": "normal"},
-        {"tag": "街道", "tag_en": "street", "weight": "normal"},
-        {"tag": "海滩", "tag_en": "beach", "weight": "normal"},
-        {"tag": "森林", "tag_en": "forest", "weight": "normal"},
-        {"tag": "山脉", "tag_en": "mountains", "weight": "normal"},
-        {"tag": "湖泊", "tag_en": "lake", "weight": "normal"},
-        {"tag": "河流", "tag_en": "river", "weight": "normal"},
-        {"tag": "花园", "tag_en": "garden", "weight": "normal"},
-        {"tag": "樱花树下", "tag_en": "under cherry blossoms", "weight": "normal"},
-        {"tag": "竹林", "tag_en": "bamboo forest", "weight": "normal"},
-        {"tag": "草原", "tag_en": "grassland", "weight": "normal"},
-        {"tag": "沙漠", "tag_en": "desert", "weight": "normal"},
-        {"tag": "雪地", "tag_en": "snowy landscape", "weight": "normal"},
+        {"tag": "户外", "tag_en": "outdoors", "weight": "normal"},
         {"tag": "城市", "tag_en": "city", "weight": "normal"},
-        {"tag": "废墟", "tag_en": "ruins", "weight": "normal"}
+        {"tag": "街道", "tag_en": "street", "weight": "normal"},
+        {"tag": "小巷", "tag_en": "alley", "weight": "normal"},
+        {"tag": "公园", "tag_en": "park", "weight": "normal"},
+        {"tag": "游乐园", "tag_en": "amusement park", "weight": "normal"},
+        {"tag": "森林", "tag_en": "forest", "weight": "normal"},
+        {"tag": "竹林", "tag_en": "bamboo forest", "weight": "normal"},
+        {"tag": "山脉", "tag_en": "mountain", "weight": "normal"},
+        {"tag": "洞穴", "tag_en": "cave", "weight": "normal"},
+        {"tag": "海滩", "tag_en": "beach", "weight": "normal"},
+        {"tag": "海洋", "tag_en": "ocean", "weight": "normal"},
+        {"tag": "水下", "tag_en": "underwater", "weight": "normal"}
       ]
     },
     {
-      "group_name": "时间天气",
-      "group_name_en": "Time & Weather",
+      "group_name": "天空/时间",
+      "group_name_en": "Sky & Time",
       "tags": [
-        {"tag": "早晨", "tag_en": "morning", "weight": "normal"},
-        {"tag": "正午", "tag_en": "noon", "weight": "normal"},
-        {"tag": "黄昏", "tag_en": "sunset", "weight": "normal"},
+        {"tag": "天空", "tag_en": "sky", "weight": "normal"},
+        {"tag": "多云天空", "tag_en": "cloudy sky", "weight": "normal"},
+        {"tag": "日落", "tag_en": "sunset", "weight": "normal"},
+        {"tag": "日出", "tag_en": "sunrise", "weight": "normal"},
         {"tag": "夜晚", "tag_en": "night", "weight": "normal"},
-        {"tag": "深夜", "tag_en": "midnight", "weight": "normal"},
-        {"tag": "晴天", "tag_en": "sunny", "weight": "normal"},
-        {"tag": "阴天", "tag_en": "cloudy", "weight": "normal"},
-        {"tag": "雨天", "tag_en": "rainy", "weight": "normal"},
-        {"tag": "雪天", "tag_en": "snowy", "weight": "normal"},
-        {"tag": "雾天", "tag_en": "foggy", "weight": "normal"},
-        {"tag": "雷暴", "tag_en": "thunderstorm", "weight": "normal"},
-        {"tag": "彩虹", "tag_en": "rainbow", "weight": "normal"},
         {"tag": "星空", "tag_en": "starry sky", "weight": "normal"},
-        {"tag": "月夜", "tag_en": "moonlit night", "weight": "normal"}
+        {"tag": "满月", "tag_en": "full moon", "weight": "normal"}
       ]
     },
     {
-      "group_name": "氛围",
-      "group_name_en": "Atmosphere",
+      "group_name": "特殊场景",
+      "group_name_en": "Special Scenes",
       "tags": [
-        {"tag": "温馨", "tag_en": "warm", "weight": "normal"},
-        {"tag": "梦幻", "tag_en": "dreamy", "weight": "normal"},
-        {"tag": "神秘", "tag_en": "mysterious", "weight": "normal"},
-        {"tag": "恐怖", "tag_en": "horror", "weight": "normal"},
-        {"tag": "浪漫", "tag_en": "romantic", "weight": "normal"},
-        {"tag": "悲伤", "tag_en": "sad", "weight": "normal"},
-        {"tag": "欢乐", "tag_en": "joyful", "weight": "normal"},
-        {"tag": "紧张", "tag_en": "tense", "weight": "normal"},
-        {"tag": "宁静", "tag_en": "peaceful", "weight": "normal"},
-        {"tag": "热闹", "tag_en": "lively", "weight": "normal"},
-        {"tag": "孤独", "tag_en": "lonely", "weight": "normal"},
-        {"tag": "神圣", "tag_en": "sacred", "weight": "normal"},
-        {"tag": "邪恶", "tag_en": "evil", "weight": "normal"}
+        {"tag": "废墟", "tag_en": "ruins", "weight": "normal"},
+        {"tag": "战场", "tag_en": "battlefield", "weight": "normal"},
+        {"tag": "太空", "tag_en": "space", "weight": "normal"},
+        {"tag": "空间站", "tag_en": "space station", "weight": "normal"},
+        {"tag": "赛博朋克城市", "tag_en": "cyberpunk city", "weight": "normal"},
+        {"tag": "霓虹城市", "tag_en": "neon city", "weight": "normal"},
+        {"tag": "日式建筑", "tag_en": "japanese architecture", "weight": "normal"},
+        {"tag": "中式建筑", "tag_en": "chinese architecture", "weight": "normal"},
+        {"tag": "欧式建筑", "tag_en": "european architecture", "weight": "normal"},
+        {"tag": "奇幻风景", "tag_en": "fantasy landscape", "weight": "normal"},
+        {"tag": "浮空岛", "tag_en": "floating island", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "天气/特效",
+      "group_name_en": "Weather & Effects",
+      "tags": [
+        {"tag": "樱花飘落", "tag_en": "sakura petals", "weight": "normal"},
+        {"tag": "雨", "tag_en": "rain", "weight": "normal"},
+        {"tag": "雪", "tag_en": "snow", "weight": "normal"},
+        {"tag": "雾", "tag_en": "fog", "weight": "normal"},
+        {"tag": "烟", "tag_en": "smoke", "weight": "normal"},
+        {"tag": "火", "tag_en": "fire", "weight": "normal"},
+        {"tag": "水花", "tag_en": "water splash", "weight": "normal"}
+      ]
+    },
+    {
+      "group_name": "光影氛围",
+      "group_name_en": "Lighting",
+      "tags": [
+        {"tag": "柔光", "tag_en": "soft lighting", "weight": "normal"},
+        {"tag": "戏剧性光照", "tag_en": "dramatic lighting", "weight": "normal"},
+        {"tag": "轮廓光", "tag_en": "rim lighting", "weight": "normal"},
+        {"tag": "逆光", "tag_en": "backlighting", "weight": "normal"},
+        {"tag": "侧光", "tag_en": "side lighting", "weight": "normal"},
+        {"tag": "顶光", "tag_en": "top lighting", "weight": "normal"},
+        {"tag": "底光", "tag_en": "under lighting", "weight": "normal"},
+        {"tag": "阳光", "tag_en": "sunlight", "weight": "normal"},
+        {"tag": "阳光光束", "tag_en": "sunbeam", "weight": "normal"},
+        {"tag": "月光", "tag_en": "moonlight", "weight": "normal"},
+        {"tag": "烛光", "tag_en": "candlelight", "weight": "normal"},
+        {"tag": "火光", "tag_en": "firelight", "weight": "normal"},
+        {"tag": "霓虹灯", "tag_en": "neon lights", "weight": "normal"},
+        {"tag": "镜头光晕", "tag_en": "lens flare", "weight": "normal"},
+        {"tag": "泛光", "tag_en": "bloom", "weight": "normal"},
+        {"tag": "阴影", "tag_en": "shadow", "weight": "normal"},
+        {"tag": "投影", "tag_en": "drop shadow", "weight": "normal"},
+        {"tag": "斑驳阳光", "tag_en": "dappled sunlight", "weight": "normal"},
+        {"tag": "黄金时刻", "tag_en": "golden hour", "weight": "normal"},
+        {"tag": "蓝调时刻", "tag_en": "blue hour", "weight": "normal"},
+        {"tag": "发光", "tag_en": "glowing", "weight": "normal"},
+        {"tag": "生物发光", "tag_en": "bioluminescence", "weight": "normal"},
+        {"tag": "光线追踪", "tag_en": "ray tracing", "weight": "normal"},
+        {"tag": "体积光", "tag_en": "volumetric lighting", "weight": "normal"},
+        {"tag": "上帝之光", "tag_en": "god rays", "weight": "normal"},
+        {"tag": "色差", "tag_en": "chromatic aberration", "weight": "normal"},
+        {"tag": "焦散", "tag_en": "caustics", "weight": "normal"}
       ]
     }
   ]
