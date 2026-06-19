@@ -7,320 +7,2824 @@
       "group_name": "上装",
       "group_name_en": "Tops",
       "tags": [
-        {"tag": "T恤", "tag_en": "t-shirt", "weight": "normal"},
-        {"tag": "印花T恤", "tag_en": "graphic tee", "weight": "normal"},
-        {"tag": "露脐装", "tag_en": "crop top", "weight": "normal"},
-        {"tag": "露肩装", "tag_en": "off-shoulder", "weight": "normal"},
-        {"tag": "单肩装", "tag_en": "one shoulder", "weight": "normal"},
-        {"tag": "女式衬衫", "tag_en": "blouse", "weight": "normal"},
-        {"tag": "荷叶边衬衫", "tag_en": "frilled blouse", "weight": "normal"},
-        {"tag": "蕾丝上衣", "tag_en": "lace top", "weight": "normal"},
-        {"tag": "毛衣", "tag_en": "sweater", "weight": "normal"},
-        {"tag": "粗线毛衣", "tag_en": "knit sweater", "weight": "normal"},
-        {"tag": "高领毛衣", "tag_en": "turtleneck", "weight": "normal"},
-        {"tag": "高领针织衫", "tag_en": "turtleneck sweater", "weight": "normal"},
-        {"tag": "背心", "tag_en": "tank top", "weight": "normal"},
-        {"tag": "吊带衫", "tag_en": "camisole", "weight": "normal"},
-        {"tag": "连帽衫", "tag_en": "hoodie", "weight": "normal"},
-        {"tag": "拉链连帽衫", "tag_en": "zip-up hoodie", "weight": "normal"},
-        {"tag": "水手领", "tag_en": "sailor collar", "weight": "normal"},
-        {"tag": "校服衬衫", "tag_en": "school uniform shirt", "weight": "normal"},
-        {"tag": "正装衬衫", "tag_en": "dress shirt", "weight": "normal"},
-        {"tag": "紧身衣", "tag_en": "leotard", "weight": "normal"},
-        {"tag": "体操紧身衣", "tag_en": "gym leotard", "weight": "normal"},
-        {"tag": "连体衣", "tag_en": "bodysuit", "weight": "normal"},
-        {"tag": "铠甲上装", "tag_en": "armor top", "weight": "normal"},
-        {"tag": "胸衣", "tag_en": "bustier", "weight": "normal"},
-        {"tag": "抹胸", "tag_en": "tube top", "weight": "normal"},
-        {"tag": "挂脖装", "tag_en": "halter top", "weight": "normal"},
-        {"tag": "露背装", "tag_en": "backless", "weight": "normal"},
-        {"tag": "露腰", "tag_en": "midriff", "weight": "normal"},
-        {"tag": "透视装", "tag_en": "see-through", "weight": "normal"},
-        {"tag": "蕾丝透视", "tag_en": "see-through lace", "weight": "normal"},
-        {"tag": "湿衣", "tag_en": "wet clothes", "weight": "normal"},
-        {"tag": "破损衣物", "tag_en": "torn clothes", "weight": "normal"},
-        {"tag": "敞开衣物", "tag_en": "open clothes", "weight": "normal"},
-        {"tag": "未扣衬衫", "tag_en": "unbuttoned shirt", "weight": "normal"},
-        {"tag": "卷起袖子", "tag_en": "rolled sleeves", "weight": "normal"}
+        {
+          "tag": "T恤",
+          "tag_en": "t-shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "印花T恤",
+          "tag_en": "graphic tee",
+          "weight": "normal"
+        },
+        {
+          "tag": "露脐装",
+          "tag_en": "crop top",
+          "weight": "normal"
+        },
+        {
+          "tag": "露肩装",
+          "tag_en": "off-shoulder",
+          "weight": "normal"
+        },
+        {
+          "tag": "单肩装",
+          "tag_en": "one shoulder",
+          "weight": "normal"
+        },
+        {
+          "tag": "女式衬衫",
+          "tag_en": "blouse",
+          "weight": "normal"
+        },
+        {
+          "tag": "荷叶边衬衫",
+          "tag_en": "frilled blouse",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝上衣",
+          "tag_en": "lace top",
+          "weight": "normal"
+        },
+        {
+          "tag": "毛衣",
+          "tag_en": "sweater",
+          "weight": "normal"
+        },
+        {
+          "tag": "粗线毛衣",
+          "tag_en": "knit sweater",
+          "weight": "normal"
+        },
+        {
+          "tag": "高领毛衣",
+          "tag_en": "turtleneck",
+          "weight": "normal"
+        },
+        {
+          "tag": "高领针织衫",
+          "tag_en": "turtleneck sweater",
+          "weight": "normal"
+        },
+        {
+          "tag": "背心",
+          "tag_en": "tank top",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊带衫",
+          "tag_en": "camisole",
+          "weight": "normal"
+        },
+        {
+          "tag": "连帽衫",
+          "tag_en": "hoodie",
+          "weight": "normal"
+        },
+        {
+          "tag": "拉链连帽衫",
+          "tag_en": "zip-up hoodie",
+          "weight": "normal"
+        },
+        {
+          "tag": "水手领",
+          "tag_en": "sailor collar",
+          "weight": "normal"
+        },
+        {
+          "tag": "校服衬衫",
+          "tag_en": "school uniform shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "正装衬衫",
+          "tag_en": "dress shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "紧身衣",
+          "tag_en": "leotard",
+          "weight": "normal"
+        },
+        {
+          "tag": "体操紧身衣",
+          "tag_en": "gym leotard",
+          "weight": "normal"
+        },
+        {
+          "tag": "连体衣",
+          "tag_en": "bodysuit",
+          "weight": "normal"
+        },
+        {
+          "tag": "铠甲上装",
+          "tag_en": "armor top",
+          "weight": "normal"
+        },
+        {
+          "tag": "胸衣",
+          "tag_en": "bustier",
+          "weight": "normal"
+        },
+        {
+          "tag": "抹胸",
+          "tag_en": "tube top",
+          "weight": "normal"
+        },
+        {
+          "tag": "挂脖装",
+          "tag_en": "halter top",
+          "weight": "normal"
+        },
+        {
+          "tag": "露背装",
+          "tag_en": "backless",
+          "weight": "normal"
+        },
+        {
+          "tag": "露腰",
+          "tag_en": "midriff",
+          "weight": "normal"
+        },
+        {
+          "tag": "透视装",
+          "tag_en": "see-through",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝透视",
+          "tag_en": "see-through lace",
+          "weight": "normal"
+        },
+        {
+          "tag": "湿衣",
+          "tag_en": "wet clothes",
+          "weight": "normal"
+        },
+        {
+          "tag": "破损衣物",
+          "tag_en": "torn clothes",
+          "weight": "normal"
+        },
+        {
+          "tag": "敞开衣物",
+          "tag_en": "open clothes",
+          "weight": "normal"
+        },
+        {
+          "tag": "未扣衬衫",
+          "tag_en": "unbuttoned shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "卷起袖子",
+          "tag_en": "rolled sleeves",
+          "weight": "normal"
+        },
+        {
+          "tag": "挂脖上衣",
+          "tag_en": "halter top",
+          "weight": "normal"
+        },
+        {
+          "tag": "抹胸上衣",
+          "tag_en": "bandeau top",
+          "weight": "normal"
+        },
+        {
+          "tag": "镂空上衣",
+          "tag_en": "keyhole top",
+          "weight": "normal"
+        },
+        {
+          "tag": "雪纺衫",
+          "tag_en": "chiffon top",
+          "weight": "normal"
+        },
+        {
+          "tag": "针织开衫",
+          "tag_en": "knit top",
+          "weight": "normal"
+        },
+        {
+          "tag": "马球衫",
+          "tag_en": "polo shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "亨利衫",
+          "tag_en": "henley shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "长袖衬衫",
+          "tag_en": "long sleeve shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "短袖衬衫",
+          "tag_en": "short sleeve shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "无袖上衣",
+          "tag_en": "sleeveless top",
+          "weight": "normal"
+        },
+        {
+          "tag": "泡泡袖上衣",
+          "tag_en": "puff sleeve top",
+          "weight": "normal"
+        },
+        {
+          "tag": "喇叭袖上衣",
+          "tag_en": "bell sleeve top",
+          "weight": "normal"
+        },
+        {
+          "tag": "一字肩上衣",
+          "tag_en": "straight across top",
+          "weight": "normal"
+        },
+        {
+          "tag": "深V上衣",
+          "tag_en": "deep v-neck",
+          "weight": "normal"
+        },
+        {
+          "tag": "方领上衣",
+          "tag_en": "square neckline",
+          "weight": "normal"
+        },
+        {
+          "tag": "船领上衣",
+          "tag_en": "boat neck",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛仔衬衫",
+          "tag_en": "denim shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "法兰绒衬衫",
+          "tag_en": "flannel shirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "宽松上衣",
+          "tag_en": "oversized top",
+          "weight": "normal"
+        },
+        {
+          "tag": "束腰上衣",
+          "tag_en": "peplum top",
+          "weight": "normal"
+        },
+        {
+          "tag": "娃娃衫",
+          "tag_en": "baby doll top",
+          "weight": "normal"
+        },
+        {
+          "tag": "拉链上衣",
+          "tag_en": "zipper top",
+          "weight": "normal"
+        },
+        {
+          "tag": "不对称上衣",
+          "tag_en": "asymmetric top",
+          "weight": "normal"
+        },
+        {
+          "tag": "透视上衣",
+          "tag_en": "sheer top",
+          "weight": "normal"
+        }
       ]
     },
     {
       "group_name": "下装",
       "group_name_en": "Bottoms",
       "tags": [
-        {"tag": "裙子", "tag_en": "skirt", "weight": "normal"},
-        {"tag": "百褶裙", "tag_en": "pleated skirt", "weight": "normal"},
-        {"tag": "迷你裙", "tag_en": "miniskirt", "weight": "normal"},
-        {"tag": "超短裙", "tag_en": "microskirt", "weight": "normal"},
-        {"tag": "中长裙", "tag_en": "midi skirt", "weight": "normal"},
-        {"tag": "长裙", "tag_en": "long skirt", "weight": "normal"},
-        {"tag": "蓬蓬裙", "tag_en": "puffy skirt", "weight": "normal"},
-        {"tag": "鱼尾裙", "tag_en": "mermaid skirt", "weight": "normal"},
-        {"tag": "蕾丝裙", "tag_en": "lace skirt", "weight": "normal"},
-        {"tag": "皮裙", "tag_en": "leather skirt", "weight": "normal"},
-        {"tag": "牛仔短裤", "tag_en": "denim shorts", "weight": "normal"},
-        {"tag": "热裤", "tag_en": "hot pants", "weight": "normal"},
-        {"tag": "长裤", "tag_en": "pants", "weight": "normal"},
-        {"tag": "牛仔裤", "tag_en": "jeans", "weight": "normal"},
-        {"tag": "破洞牛仔裤", "tag_en": "ripped jeans", "weight": "normal"},
-        {"tag": "运动裤", "tag_en": "track pants", "weight": "normal"},
-        {"tag": "工装裤", "tag_en": "cargo pants", "weight": "normal"},
-        {"tag": "紧身裤", "tag_en": "leggings", "weight": "normal"},
-        {"tag": "皮裤", "tag_en": "leather pants", "weight": "normal"},
-        {"tag": "灯笼裤", "tag_en": "bloomers", "weight": "normal"},
-        {"tag": "布鲁马", "tag_en": "buruma", "weight": "normal"},
-        {"tag": "骑行短裤", "tag_en": "bicycle shorts", "weight": "normal"},
-        {"tag": "纱笼", "tag_en": "sarong", "weight": "normal"},
-        {"tag": "开衩裙", "tag_en": "open skirt", "weight": "normal"},
-        {"tag": "和服下摆", "tag_en": "kimono skirt", "weight": "normal"}
+        {
+          "tag": "裙子",
+          "tag_en": "skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "百褶裙",
+          "tag_en": "pleated skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "迷你裙",
+          "tag_en": "miniskirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "超短裙",
+          "tag_en": "microskirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "中长裙",
+          "tag_en": "midi skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "长裙",
+          "tag_en": "long skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "蓬蓬裙",
+          "tag_en": "puffy skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "鱼尾裙",
+          "tag_en": "mermaid skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝裙",
+          "tag_en": "lace skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮裙",
+          "tag_en": "leather skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛仔短裤",
+          "tag_en": "denim shorts",
+          "weight": "normal"
+        },
+        {
+          "tag": "热裤",
+          "tag_en": "hot pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "长裤",
+          "tag_en": "pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛仔裤",
+          "tag_en": "jeans",
+          "weight": "normal"
+        },
+        {
+          "tag": "破洞牛仔裤",
+          "tag_en": "ripped jeans",
+          "weight": "normal"
+        },
+        {
+          "tag": "运动裤",
+          "tag_en": "track pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "工装裤",
+          "tag_en": "cargo pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "紧身裤",
+          "tag_en": "leggings",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮裤",
+          "tag_en": "leather pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "灯笼裤",
+          "tag_en": "bloomers",
+          "weight": "normal"
+        },
+        {
+          "tag": "布鲁马",
+          "tag_en": "buruma",
+          "weight": "normal"
+        },
+        {
+          "tag": "骑行短裤",
+          "tag_en": "bicycle shorts",
+          "weight": "normal"
+        },
+        {
+          "tag": "纱笼",
+          "tag_en": "sarong",
+          "weight": "normal"
+        },
+        {
+          "tag": "开衩裙",
+          "tag_en": "open skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "和服下摆",
+          "tag_en": "kimono skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "A字裙",
+          "tag_en": "a-line skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "包臀裙",
+          "tag_en": "pencil skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "伞裙",
+          "tag_en": "umbrella skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "蛋糕裙",
+          "tag_en": "tiered skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "不对称裙",
+          "tag_en": "asymmetric skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "喇叭裙",
+          "tag_en": "flare skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "裹裙",
+          "tag_en": "wrap skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛仔裙",
+          "tag_en": "denim skirt",
+          "weight": "normal"
+        },
+        {
+          "tag": "短裤",
+          "tag_en": "shorts",
+          "weight": "normal"
+        },
+        {
+          "tag": "百慕大短裤",
+          "tag_en": "bermuda shorts",
+          "weight": "normal"
+        },
+        {
+          "tag": "阔腿裤",
+          "tag_en": "wide leg pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "喇叭裤",
+          "tag_en": "flare pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "直筒裤",
+          "tag_en": "straight leg pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "哈伦裤",
+          "tag_en": "harem pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "裙裤",
+          "tag_en": "skort",
+          "weight": "normal"
+        },
+        {
+          "tag": "高腰裤",
+          "tag_en": "high-waist pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "低腰裤",
+          "tag_en": "low-rise pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "西装裤",
+          "tag_en": "dress pants",
+          "weight": "normal"
+        },
+        {
+          "tag": "慢跑裤",
+          "tag_en": "joggers",
+          "weight": "normal"
+        },
+        {
+          "tag": "背带裤",
+          "tag_en": "overalls",
+          "weight": "normal"
+        },
+        {
+          "tag": "连体裤",
+          "tag_en": "jumpsuit",
+          "weight": "normal"
+        }
       ]
     },
     {
       "group_name": "外套/连衣裙",
       "group_name_en": "Outerwear & Dresses",
       "tags": [
-        {"tag": "夹克", "tag_en": "jacket", "weight": "normal"},
-        {"tag": "皮夹克", "tag_en": "leather jacket", "weight": "normal"},
-        {"tag": "牛仔夹克", "tag_en": "denim jacket", "weight": "normal"},
-        {"tag": "飞行员夹克", "tag_en": "bomber jacket", "weight": "normal"},
-        {"tag": "西装外套", "tag_en": "blazer", "weight": "normal"},
-        {"tag": "大衣", "tag_en": "coat", "weight": "normal"},
-        {"tag": "风衣", "tag_en": "trench coat", "weight": "normal"},
-        {"tag": "冬装大衣", "tag_en": "winter coat", "weight": "normal"},
-        {"tag": "皮草大衣", "tag_en": "fur coat", "weight": "normal"},
-        {"tag": "披风", "tag_en": "cape", "weight": "normal"},
-        {"tag": "斗篷", "tag_en": "cloak", "weight": "normal"},
-        {"tag": "开衫", "tag_en": "cardigan", "weight": "normal"},
-        {"tag": "马甲", "tag_en": "vest", "weight": "normal"},
-        {"tag": "西装马甲", "tag_en": "waistcoat", "weight": "normal"},
-        {"tag": "铠甲", "tag_en": "armor", "weight": "normal"},
-        {"tag": "板甲", "tag_en": "plate armor", "weight": "normal"},
-        {"tag": "动力装甲", "tag_en": "power armor", "weight": "normal"},
-        {"tag": "和服", "tag_en": "kimono", "weight": "normal"},
-        {"tag": "浴衣", "tag_en": "yukata", "weight": "normal"},
-        {"tag": "振袖", "tag_en": "furisode", "weight": "normal"},
-        {"tag": "旗袍", "tag_en": "qipao", "weight": "normal"},
-        {"tag": "汉服", "tag_en": "hanfu", "weight": "normal"},
-        {"tag": "水手服", "tag_en": "serafuku", "weight": "normal"},
-        {"tag": "水手装", "tag_en": "sailor suit", "weight": "normal"},
-        {"tag": "体操服", "tag_en": "gym uniform", "weight": "normal"},
-        {"tag": "泳衣", "tag_en": "swimsuit", "weight": "normal"},
-        {"tag": "学校泳衣", "tag_en": "school swimsuit", "weight": "normal"},
-        {"tag": "竞技泳衣", "tag_en": "competition swimsuit", "weight": "normal"},
-        {"tag": "比基尼", "tag_en": "bikini", "weight": "normal"},
-        {"tag": "吊带裙", "tag_en": "slip dress", "weight": "normal"},
-        {"tag": "中式连衣裙", "tag_en": "china dress", "weight": "normal"},
-        {"tag": "晚礼服", "tag_en": "evening gown", "weight": "normal"},
-        {"tag": "婚纱", "tag_en": "wedding dress", "weight": "normal"},
-        {"tag": "洛丽塔", "tag_en": "lolita fashion", "weight": "normal"},
-        {"tag": "哥特洛丽塔", "tag_en": "gothic lolita", "weight": "normal"},
-        {"tag": "甜美洛丽塔", "tag_en": "sweet lolita", "weight": "normal"},
-        {"tag": "朋克风", "tag_en": "punk fashion", "weight": "normal"},
-        {"tag": "军装", "tag_en": "military uniform", "weight": "normal"},
-        {"tag": "迷彩服", "tag_en": "camouflage", "weight": "normal"},
-        {"tag": "警服", "tag_en": "police uniform", "weight": "normal"},
-        {"tag": "护士服", "tag_en": "nurse uniform", "weight": "normal"},
-        {"tag": "女仆装", "tag_en": "maid dress", "weight": "normal"},
-        {"tag": "法式女仆", "tag_en": "french maid", "weight": "normal"},
-        {"tag": "围裙", "tag_en": "apron", "weight": "normal"},
-        {"tag": "长袍", "tag_en": "robe", "weight": "normal"},
-        {"tag": "浴袍", "tag_en": "bathrobe", "weight": "normal"},
-        {"tag": "巫师袍", "tag_en": "wizard robe", "weight": "normal"},
-        {"tag": "道士服", "tag_en": "taoist robe", "weight": "normal"},
-        {"tag": "忍者服", "tag_en": "ninja outfit", "weight": "normal"},
-        {"tag": "和服外套", "tag_en": "haori", "weight": "normal"},
-        {"tag": "宇航服", "tag_en": "spacesuit", "weight": "normal"},
-        {"tag": "潜水服", "tag_en": "diving suit", "weight": "normal"}
+        {
+          "tag": "夹克",
+          "tag_en": "jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮夹克",
+          "tag_en": "leather jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛仔夹克",
+          "tag_en": "denim jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "飞行员夹克",
+          "tag_en": "bomber jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "西装外套",
+          "tag_en": "blazer",
+          "weight": "normal"
+        },
+        {
+          "tag": "大衣",
+          "tag_en": "coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "风衣",
+          "tag_en": "trench coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "冬装大衣",
+          "tag_en": "winter coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮草大衣",
+          "tag_en": "fur coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "披风",
+          "tag_en": "cape",
+          "weight": "normal"
+        },
+        {
+          "tag": "斗篷",
+          "tag_en": "cloak",
+          "weight": "normal"
+        },
+        {
+          "tag": "开衫",
+          "tag_en": "cardigan",
+          "weight": "normal"
+        },
+        {
+          "tag": "马甲",
+          "tag_en": "vest",
+          "weight": "normal"
+        },
+        {
+          "tag": "西装马甲",
+          "tag_en": "waistcoat",
+          "weight": "normal"
+        },
+        {
+          "tag": "铠甲",
+          "tag_en": "armor",
+          "weight": "normal"
+        },
+        {
+          "tag": "板甲",
+          "tag_en": "plate armor",
+          "weight": "normal"
+        },
+        {
+          "tag": "动力装甲",
+          "tag_en": "power armor",
+          "weight": "normal"
+        },
+        {
+          "tag": "和服",
+          "tag_en": "kimono",
+          "weight": "normal"
+        },
+        {
+          "tag": "浴衣",
+          "tag_en": "yukata",
+          "weight": "normal"
+        },
+        {
+          "tag": "振袖",
+          "tag_en": "furisode",
+          "weight": "normal"
+        },
+        {
+          "tag": "旗袍",
+          "tag_en": "qipao",
+          "weight": "normal"
+        },
+        {
+          "tag": "汉服",
+          "tag_en": "hanfu",
+          "weight": "normal"
+        },
+        {
+          "tag": "水手服",
+          "tag_en": "serafuku",
+          "weight": "normal"
+        },
+        {
+          "tag": "水手装",
+          "tag_en": "sailor suit",
+          "weight": "normal"
+        },
+        {
+          "tag": "体操服",
+          "tag_en": "gym uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "泳衣",
+          "tag_en": "swimsuit",
+          "weight": "normal"
+        },
+        {
+          "tag": "学校泳衣",
+          "tag_en": "school swimsuit",
+          "weight": "normal"
+        },
+        {
+          "tag": "竞技泳衣",
+          "tag_en": "competition swimsuit",
+          "weight": "normal"
+        },
+        {
+          "tag": "比基尼",
+          "tag_en": "bikini",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊带裙",
+          "tag_en": "slip dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "中式连衣裙",
+          "tag_en": "china dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "晚礼服",
+          "tag_en": "evening gown",
+          "weight": "normal"
+        },
+        {
+          "tag": "婚纱",
+          "tag_en": "wedding dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "洛丽塔",
+          "tag_en": "lolita fashion",
+          "weight": "normal"
+        },
+        {
+          "tag": "哥特洛丽塔",
+          "tag_en": "gothic lolita",
+          "weight": "normal"
+        },
+        {
+          "tag": "甜美洛丽塔",
+          "tag_en": "sweet lolita",
+          "weight": "normal"
+        },
+        {
+          "tag": "朋克风",
+          "tag_en": "punk fashion",
+          "weight": "normal"
+        },
+        {
+          "tag": "军装",
+          "tag_en": "military uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "迷彩服",
+          "tag_en": "camouflage",
+          "weight": "normal"
+        },
+        {
+          "tag": "警服",
+          "tag_en": "police uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "护士服",
+          "tag_en": "nurse uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "女仆装",
+          "tag_en": "maid dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "法式女仆",
+          "tag_en": "french maid",
+          "weight": "normal"
+        },
+        {
+          "tag": "围裙",
+          "tag_en": "apron",
+          "weight": "normal"
+        },
+        {
+          "tag": "长袍",
+          "tag_en": "robe",
+          "weight": "normal"
+        },
+        {
+          "tag": "浴袍",
+          "tag_en": "bathrobe",
+          "weight": "normal"
+        },
+        {
+          "tag": "巫师袍",
+          "tag_en": "wizard robe",
+          "weight": "normal"
+        },
+        {
+          "tag": "道士服",
+          "tag_en": "taoist robe",
+          "weight": "normal"
+        },
+        {
+          "tag": "忍者服",
+          "tag_en": "ninja outfit",
+          "weight": "normal"
+        },
+        {
+          "tag": "和服外套",
+          "tag_en": "haori",
+          "weight": "normal"
+        },
+        {
+          "tag": "宇航服",
+          "tag_en": "spacesuit",
+          "weight": "normal"
+        },
+        {
+          "tag": "潜水服",
+          "tag_en": "diving suit",
+          "weight": "normal"
+        },
+        {
+          "tag": "衬衫裙",
+          "tag_en": "shirt dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "裹身裙",
+          "tag_en": "wrap dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "紧身连衣裙",
+          "tag_en": "bodycon dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "A字连衣裙",
+          "tag_en": "a-line dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "直筒连衣裙",
+          "tag_en": "shift dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "茶歇裙",
+          "tag_en": "tea dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "公主裙",
+          "tag_en": "princess dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "花苞裙",
+          "tag_en": "bubble dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "挂脖连衣裙",
+          "tag_en": "halter dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊带连衣裙",
+          "tag_en": "spaghetti strap dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "抹胸连衣裙",
+          "tag_en": "bandeau dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "背心裙",
+          "tag_en": "sundress",
+          "weight": "normal"
+        },
+        {
+          "tag": "无袖连衣裙",
+          "tag_en": "sleeveless dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "长袖连衣裙",
+          "tag_en": "long sleeve dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝连衣裙",
+          "tag_en": "lace dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "丝绒连衣裙",
+          "tag_en": "velvet dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "羽绒服",
+          "tag_en": "down jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "棉服",
+          "tag_en": "puffer jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "派克大衣",
+          "tag_en": "parka",
+          "weight": "normal"
+        },
+        {
+          "tag": "连帽大衣",
+          "tag_en": "hooded coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "斗篷大衣",
+          "tag_en": "wrap coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "西装",
+          "tag_en": "suit",
+          "weight": "normal"
+        },
+        {
+          "tag": "燕尾服",
+          "tag_en": "tuxedo",
+          "weight": "normal"
+        },
+        {
+          "tag": "衬衫外套",
+          "tag_en": "shirt jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "教练夹克",
+          "tag_en": "coach jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "工装夹克",
+          "tag_en": "work jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛仔背心",
+          "tag_en": "denim vest",
+          "weight": "normal"
+        },
+        {
+          "tag": "机车夹克",
+          "tag_en": "moto jacket",
+          "weight": "normal"
+        },
+        {
+          "tag": "军大衣",
+          "tag_en": "military coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "连衣裙",
+          "tag_en": "dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "旗袍裙",
+          "tag_en": "cheongsam dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "波西米亚长裙",
+          "tag_en": "bohemian dress",
+          "weight": "normal"
+        },
+        {
+          "tag": "拳击手长袍",
+          "tag_en": "boxing robe",
+          "weight": "normal"
+        },
+        {
+          "tag": "带帽夹克",
+          "tag_en": "anorak",
+          "weight": "normal"
+        },
+        {
+          "tag": "纱丽",
+          "tag_en": "sari",
+          "weight": "normal"
+        },
+        {
+          "tag": "奥黛",
+          "tag_en": "ao dai",
+          "weight": "normal"
+        },
+        {
+          "tag": "韩服",
+          "tag_en": "hanbok",
+          "weight": "normal"
+        },
+        {
+          "tag": "苏格兰裙",
+          "tag_en": "kilt",
+          "weight": "normal"
+        },
+        {
+          "tag": "斗篷披肩",
+          "tag_en": "poncho",
+          "weight": "normal"
+        },
+        {
+          "tag": "莎娃",
+          "tag_en": "sherwani",
+          "weight": "normal"
+        },
+        {
+          "tag": "土耳其长袍",
+          "tag_en": "kaftan",
+          "weight": "normal"
+        },
+        {
+          "tag": "萨龙",
+          "tag_en": "sarong (wrap)",
+          "weight": "normal"
+        },
+        {
+          "tag": "阿拉伯长袍",
+          "tag_en": "thobe",
+          "weight": "normal"
+        },
+        {
+          "tag": "蒙古袍",
+          "tag_en": "deel",
+          "weight": "normal"
+        },
+        {
+          "tag": "和式罩衫",
+          "tag_en": "happi coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "印度旁遮普服",
+          "tag_en": "salwar kameez",
+          "weight": "normal"
+        },
+        {
+          "tag": "非洲肯特布",
+          "tag_en": "kente cloth",
+          "weight": "normal"
+        },
+        {
+          "tag": "墨西哥传统连衣裙",
+          "tag_en": "huipil",
+          "weight": "normal"
+        },
+        {
+          "tag": "希腊长袍",
+          "tag_en": "chiton",
+          "weight": "normal"
+        },
+        {
+          "tag": "罗马托加袍",
+          "tag_en": "toga",
+          "weight": "normal"
+        },
+        {
+          "tag": "越南四身衣",
+          "tag_en": "ao tu than",
+          "weight": "normal"
+        },
+        {
+          "tag": "不丹传统袍",
+          "tag_en": "gho",
+          "weight": "normal"
+        },
+        {
+          "tag": "菲律宾巴隆",
+          "tag_en": "barong tagalog",
+          "weight": "normal"
+        }
       ]
     },
     {
       "group_name": "袜类/腿部",
       "group_name_en": "Legwear",
       "tags": [
-        {"tag": "过膝袜", "tag_en": "thighhighs", "weight": "normal"},
-        {"tag": "及膝袜", "tag_en": "knee socks", "weight": "normal"},
-        {"tag": "短袜", "tag_en": "ankle socks", "weight": "normal"},
-        {"tag": "泡泡袜", "tag_en": "loose socks", "weight": "normal"},
-        {"tag": "连裤袜", "tag_en": "pantyhose", "weight": "normal"},
-        {"tag": "渔网袜", "tag_en": "fishnets", "weight": "normal"},
-        {"tag": "吊袜带", "tag_en": "garter belt", "weight": "normal"},
-        {"tag": "吊袜带扣", "tag_en": "garter straps", "weight": "normal"},
-        {"tag": "条纹过膝袜", "tag_en": "striped thighhighs", "weight": "normal"},
-        {"tag": "白色过膝袜", "tag_en": "white thighhighs", "weight": "normal"},
-        {"tag": "黑色过膝袜", "tag_en": "black thighhighs", "weight": "normal"},
-        {"tag": "红色过膝袜", "tag_en": "red thighhighs", "weight": "normal"},
-        {"tag": "粉色过膝袜", "tag_en": "pink thighhighs", "weight": "normal"},
-        {"tag": "蓝色过膝袜", "tag_en": "blue thighhighs", "weight": "normal"},
-        {"tag": "单只过膝袜", "tag_en": "single thighhigh", "weight": "normal"},
-        {"tag": "不对称袜", "tag_en": "mismatched legwear", "weight": "normal"},
-        {"tag": "裸腿", "tag_en": "bare legs", "weight": "normal"},
-        {"tag": "暖腿套", "tag_en": "leg warmers", "weight": "normal"},
-        {"tag": "露趾袜", "tag_en": "toeless legwear", "weight": "normal"},
-        {"tag": "蕾丝袜", "tag_en": "lace legwear", "weight": "normal"},
-        {"tag": "破损袜", "tag_en": "torn legwear", "weight": "normal"}
+        {
+          "tag": "过膝袜",
+          "tag_en": "thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "及膝袜",
+          "tag_en": "knee socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "短袜",
+          "tag_en": "ankle socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "泡泡袜",
+          "tag_en": "loose socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "连裤袜",
+          "tag_en": "pantyhose",
+          "weight": "normal"
+        },
+        {
+          "tag": "渔网袜",
+          "tag_en": "fishnets",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊袜带",
+          "tag_en": "garter belt",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊袜带扣",
+          "tag_en": "garter straps",
+          "weight": "normal"
+        },
+        {
+          "tag": "条纹过膝袜",
+          "tag_en": "striped thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "白色过膝袜",
+          "tag_en": "white thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "黑色过膝袜",
+          "tag_en": "black thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "红色过膝袜",
+          "tag_en": "red thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "粉色过膝袜",
+          "tag_en": "pink thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "蓝色过膝袜",
+          "tag_en": "blue thighhighs",
+          "weight": "normal"
+        },
+        {
+          "tag": "单只过膝袜",
+          "tag_en": "single thighhigh",
+          "weight": "normal"
+        },
+        {
+          "tag": "不对称袜",
+          "tag_en": "mismatched legwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "裸腿",
+          "tag_en": "bare legs",
+          "weight": "normal"
+        },
+        {
+          "tag": "暖腿套",
+          "tag_en": "leg warmers",
+          "weight": "normal"
+        },
+        {
+          "tag": "露趾袜",
+          "tag_en": "toeless legwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝袜",
+          "tag_en": "lace legwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "破损袜",
+          "tag_en": "torn legwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "丝袜",
+          "tag_en": "stockings",
+          "weight": "normal"
+        },
+        {
+          "tag": "中筒袜",
+          "tag_en": "crew socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "船袜",
+          "tag_en": "no-show socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "超长袜",
+          "tag_en": "over-the-knee socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "运动袜",
+          "tag_en": "athletic socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "棉袜",
+          "tag_en": "cotton socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "毛线袜",
+          "tag_en": "wool socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "透明丝袜",
+          "tag_en": "sheer pantyhose",
+          "weight": "normal"
+        },
+        {
+          "tag": "不透明袜",
+          "tag_en": "opaque tights",
+          "weight": "normal"
+        },
+        {
+          "tag": "堆堆袜",
+          "tag_en": "slouchy socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "短筒袜",
+          "tag_en": "quarter socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝长袜",
+          "tag_en": "lace stockings",
+          "weight": "normal"
+        },
+        {
+          "tag": "压缩袜",
+          "tag_en": "compression socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝边短袜",
+          "tag_en": "frill socks",
+          "weight": "normal"
+        },
+        {
+          "tag": "网眼袜",
+          "tag_en": "mesh legwear",
+          "weight": "normal"
+        }
       ]
     },
     {
       "group_name": "鞋类",
       "group_name_en": "Footwear",
       "tags": [
-        {"tag": "运动鞋", "tag_en": "sneakers", "weight": "normal"},
-        {"tag": "帆布鞋", "tag_en": "converse", "weight": "normal"},
-        {"tag": "乐福鞋", "tag_en": "loafers", "weight": "normal"},
-        {"tag": "高跟鞋", "tag_en": "high heels", "weight": "normal"},
-        {"tag": "细高跟", "tag_en": "stiletto heels", "weight": "normal"},
-        {"tag": "粗高跟", "tag_en": "block heels", "weight": "normal"},
-        {"tag": "厚底高跟", "tag_en": "platform heels", "weight": "normal"},
-        {"tag": "楔形鞋", "tag_en": "wedge heels", "weight": "normal"},
-        {"tag": "靴子", "tag_en": "boots", "weight": "normal"},
-        {"tag": "过膝靴", "tag_en": "thigh boots", "weight": "normal"},
-        {"tag": "及膝靴", "tag_en": "knee boots", "weight": "normal"},
-        {"tag": "短靴", "tag_en": "ankle boots", "weight": "normal"},
-        {"tag": "马丁靴", "tag_en": "combat boots", "weight": "normal"},
-        {"tag": "皮靴", "tag_en": "leather boots", "weight": "normal"},
-        {"tag": "雨靴", "tag_en": "rain boots", "weight": "normal"},
-        {"tag": "凉鞋", "tag_en": "sandals", "weight": "normal"},
-        {"tag": "绑带凉鞋", "tag_en": "gladiator sandals", "weight": "normal"},
-        {"tag": "人字拖", "tag_en": "flip-flops", "weight": "normal"},
-        {"tag": "玛丽珍鞋", "tag_en": "mary janes", "weight": "normal"},
-        {"tag": "室内鞋", "tag_en": "uwabaki", "weight": "normal"},
-        {"tag": "木屐", "tag_en": "geta", "weight": "normal"},
-        {"tag": "草履", "tag_en": "zori", "weight": "normal"},
-        {"tag": "足袋", "tag_en": "tabi", "weight": "normal"},
-        {"tag": "芭蕾舞鞋", "tag_en": "ballet slippers", "weight": "normal"},
-        {"tag": "冰鞋", "tag_en": "ice skates", "weight": "normal"},
-        {"tag": "轮滑鞋", "tag_en": "roller skates", "weight": "normal"},
-        {"tag": "赤脚", "tag_en": "barefoot", "weight": "normal"},
-        {"tag": "露趾缝", "tag_en": "toe cleavage", "weight": "normal"},
-        {"tag": "挂鞋", "tag_en": "shoe dangle", "weight": "normal"},
-        {"tag": "单鞋", "tag_en": "single shoe", "weight": "normal"},
-        {"tag": "不对称鞋", "tag_en": "mismatched footwear", "weight": "normal"}
+        {
+          "tag": "运动鞋",
+          "tag_en": "sneakers",
+          "weight": "normal"
+        },
+        {
+          "tag": "帆布鞋",
+          "tag_en": "converse",
+          "weight": "normal"
+        },
+        {
+          "tag": "乐福鞋",
+          "tag_en": "loafers",
+          "weight": "normal"
+        },
+        {
+          "tag": "高跟鞋",
+          "tag_en": "high heels",
+          "weight": "normal"
+        },
+        {
+          "tag": "细高跟",
+          "tag_en": "stiletto heels",
+          "weight": "normal"
+        },
+        {
+          "tag": "粗高跟",
+          "tag_en": "block heels",
+          "weight": "normal"
+        },
+        {
+          "tag": "厚底高跟",
+          "tag_en": "platform heels",
+          "weight": "normal"
+        },
+        {
+          "tag": "楔形鞋",
+          "tag_en": "wedge heels",
+          "weight": "normal"
+        },
+        {
+          "tag": "靴子",
+          "tag_en": "boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "过膝靴",
+          "tag_en": "thigh boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "及膝靴",
+          "tag_en": "knee boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "短靴",
+          "tag_en": "ankle boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "马丁靴",
+          "tag_en": "combat boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮靴",
+          "tag_en": "leather boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "雨靴",
+          "tag_en": "rain boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "凉鞋",
+          "tag_en": "sandals",
+          "weight": "normal"
+        },
+        {
+          "tag": "绑带凉鞋",
+          "tag_en": "gladiator sandals",
+          "weight": "normal"
+        },
+        {
+          "tag": "人字拖",
+          "tag_en": "flip-flops",
+          "weight": "normal"
+        },
+        {
+          "tag": "玛丽珍鞋",
+          "tag_en": "mary janes",
+          "weight": "normal"
+        },
+        {
+          "tag": "室内鞋",
+          "tag_en": "uwabaki",
+          "weight": "normal"
+        },
+        {
+          "tag": "木屐",
+          "tag_en": "geta",
+          "weight": "normal"
+        },
+        {
+          "tag": "草履",
+          "tag_en": "zori",
+          "weight": "normal"
+        },
+        {
+          "tag": "足袋",
+          "tag_en": "tabi",
+          "weight": "normal"
+        },
+        {
+          "tag": "芭蕾舞鞋",
+          "tag_en": "ballet slippers",
+          "weight": "normal"
+        },
+        {
+          "tag": "冰鞋",
+          "tag_en": "ice skates",
+          "weight": "normal"
+        },
+        {
+          "tag": "轮滑鞋",
+          "tag_en": "roller skates",
+          "weight": "normal"
+        },
+        {
+          "tag": "赤脚",
+          "tag_en": "barefoot",
+          "weight": "normal"
+        },
+        {
+          "tag": "露趾缝",
+          "tag_en": "toe cleavage",
+          "weight": "normal"
+        },
+        {
+          "tag": "挂鞋",
+          "tag_en": "shoe dangle",
+          "weight": "normal"
+        },
+        {
+          "tag": "单鞋",
+          "tag_en": "single shoe",
+          "weight": "normal"
+        },
+        {
+          "tag": "不对称鞋",
+          "tag_en": "mismatched footwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "平底鞋",
+          "tag_en": "flats",
+          "weight": "normal"
+        },
+        {
+          "tag": "芭蕾平底鞋",
+          "tag_en": "ballet flats",
+          "weight": "normal"
+        },
+        {
+          "tag": "牛津鞋",
+          "tag_en": "oxford shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "德比鞋",
+          "tag_en": "derby shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "布洛克鞋",
+          "tag_en": "brogues",
+          "weight": "normal"
+        },
+        {
+          "tag": "切尔西靴",
+          "tag_en": "chelsea boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "雪地靴",
+          "tag_en": "winter boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "凉拖",
+          "tag_en": "slide sandals",
+          "weight": "normal"
+        },
+        {
+          "tag": "登山鞋",
+          "tag_en": "hiking boots",
+          "weight": "normal"
+        },
+        {
+          "tag": "运动凉鞋",
+          "tag_en": "sport sandals",
+          "weight": "normal"
+        },
+        {
+          "tag": "细带凉鞋",
+          "tag_en": "strappy sandals",
+          "weight": "normal"
+        },
+        {
+          "tag": "尖头鞋",
+          "tag_en": "pointed toe shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "圆头鞋",
+          "tag_en": "round toe shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "方头鞋",
+          "tag_en": "square toe shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "莫卡辛鞋",
+          "tag_en": "moccasins",
+          "weight": "normal"
+        },
+        {
+          "tag": "僧侣鞋",
+          "tag_en": "monk strap shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "拖鞋",
+          "tag_en": "slippers",
+          "weight": "normal"
+        },
+        {
+          "tag": "帆布鞋",
+          "tag_en": "canvas shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮鞋",
+          "tag_en": "leather shoes",
+          "weight": "normal"
+        },
+        {
+          "tag": "罗马鞋",
+          "tag_en": "roman sandals",
+          "weight": "normal"
+        },
+        {
+          "tag": "运动靴",
+          "tag_en": "athletic boots",
+          "weight": "normal"
+        }
       ]
     },
     {
       "group_name": "头饰",
       "group_name_en": "Headwear",
       "tags": [
-        {"tag": "发带", "tag_en": "hair ribbon", "weight": "normal"},
-        {"tag": "蝴蝶结", "tag_en": "hair bow", "weight": "normal"},
-        {"tag": "大蝴蝶结", "tag_en": "large bow", "weight": "normal"},
-        {"tag": "发箍", "tag_en": "hairband", "weight": "normal"},
-        {"tag": "发夹", "tag_en": "hairclip", "weight": "normal"},
-        {"tag": "发饰", "tag_en": "hair ornament", "weight": "normal"},
-        {"tag": "花朵发饰", "tag_en": "flower hair ornament", "weight": "normal"},
-        {"tag": "X形发饰", "tag_en": "x hair ornament", "weight": "normal"},
-        {"tag": "星星发饰", "tag_en": "star hair ornament", "weight": "normal"},
-        {"tag": "心形发饰", "tag_en": "heart hair ornament", "weight": "normal"},
-        {"tag": "铃铛发饰", "tag_en": "bell hair ornament", "weight": "normal"},
-        {"tag": "帽子", "tag_en": "hat", "weight": "normal"},
-        {"tag": "贝雷帽", "tag_en": "beret", "weight": "normal"},
-        {"tag": "棒球帽", "tag_en": "baseball cap", "weight": "normal"},
-        {"tag": "报童帽", "tag_en": "newsboy cap", "weight": "normal"},
-        {"tag": "渔夫帽", "tag_en": "bucket hat", "weight": "normal"},
-        {"tag": "遮阳帽", "tag_en": "visor cap", "weight": "normal"},
-        {"tag": "太阳帽", "tag_en": "sun hat", "weight": "normal"},
-        {"tag": "草帽", "tag_en": "straw hat", "weight": "normal"},
-        {"tag": "巫师帽", "tag_en": "witch hat", "weight": "normal"},
-        {"tag": "圣诞帽", "tag_en": "santa hat", "weight": "normal"},
-        {"tag": "皇冠", "tag_en": "crown", "weight": "normal"},
-        {"tag": "头冠", "tag_en": "tiara", "weight": "normal"},
-        {"tag": "光环", "tag_en": "halo", "weight": "normal"},
-        {"tag": "女仆头饰", "tag_en": "maid headdress", "weight": "normal"},
-        {"tag": "护士帽", "tag_en": "nurse cap", "weight": "normal"},
-        {"tag": "动物兜帽", "tag_en": "animal hood", "weight": "normal"},
-        {"tag": "猫耳兜帽", "tag_en": "cat hood", "weight": "normal"},
-        {"tag": "熊耳兜帽", "tag_en": "bear hood", "weight": "normal"},
-        {"tag": "头戴耳机", "tag_en": "headphones", "weight": "normal"},
-        {"tag": "猫耳耳机", "tag_en": "cat ear headphones", "weight": "normal"},
-        {"tag": "耳罩", "tag_en": "earmuffs", "weight": "normal"},
-        {"tag": "兜帽", "tag_en": "hood", "weight": "normal"},
-        {"tag": "面纱", "tag_en": "veil", "weight": "normal"},
-        {"tag": "面纱遮脸", "tag_en": "veil over face", "weight": "normal"},
-        {"tag": "簪花", "tag_en": "hair flower", "weight": "normal"},
-        {"tag": "发簪", "tag_en": "hair stick", "weight": "normal"},
-        {"tag": "发梳", "tag_en": "hair comb", "weight": "normal"},
-        {"tag": "发网", "tag_en": "hair net", "weight": "normal"}
+        {
+          "tag": "发带",
+          "tag_en": "hair ribbon",
+          "weight": "normal"
+        },
+        {
+          "tag": "蝴蝶结",
+          "tag_en": "hair bow",
+          "weight": "normal"
+        },
+        {
+          "tag": "大蝴蝶结",
+          "tag_en": "large bow",
+          "weight": "normal"
+        },
+        {
+          "tag": "发箍",
+          "tag_en": "hairband",
+          "weight": "normal"
+        },
+        {
+          "tag": "发夹",
+          "tag_en": "hairclip",
+          "weight": "normal"
+        },
+        {
+          "tag": "发饰",
+          "tag_en": "hair ornament",
+          "weight": "normal"
+        },
+        {
+          "tag": "花朵发饰",
+          "tag_en": "flower hair ornament",
+          "weight": "normal"
+        },
+        {
+          "tag": "X形发饰",
+          "tag_en": "x hair ornament",
+          "weight": "normal"
+        },
+        {
+          "tag": "星星发饰",
+          "tag_en": "star hair ornament",
+          "weight": "normal"
+        },
+        {
+          "tag": "心形发饰",
+          "tag_en": "heart hair ornament",
+          "weight": "normal"
+        },
+        {
+          "tag": "铃铛发饰",
+          "tag_en": "bell hair ornament",
+          "weight": "normal"
+        },
+        {
+          "tag": "帽子",
+          "tag_en": "hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "贝雷帽",
+          "tag_en": "beret",
+          "weight": "normal"
+        },
+        {
+          "tag": "棒球帽",
+          "tag_en": "baseball cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "报童帽",
+          "tag_en": "newsboy cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "渔夫帽",
+          "tag_en": "bucket hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "遮阳帽",
+          "tag_en": "visor cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "太阳帽",
+          "tag_en": "sun hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "草帽",
+          "tag_en": "straw hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "巫师帽",
+          "tag_en": "witch hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "圣诞帽",
+          "tag_en": "santa hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "皇冠",
+          "tag_en": "crown",
+          "weight": "normal"
+        },
+        {
+          "tag": "头冠",
+          "tag_en": "tiara",
+          "weight": "normal"
+        },
+        {
+          "tag": "光环",
+          "tag_en": "halo",
+          "weight": "normal"
+        },
+        {
+          "tag": "女仆头饰",
+          "tag_en": "maid headdress",
+          "weight": "normal"
+        },
+        {
+          "tag": "护士帽",
+          "tag_en": "nurse cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "动物兜帽",
+          "tag_en": "animal hood",
+          "weight": "normal"
+        },
+        {
+          "tag": "猫耳兜帽",
+          "tag_en": "cat hood",
+          "weight": "normal"
+        },
+        {
+          "tag": "熊耳兜帽",
+          "tag_en": "bear hood",
+          "weight": "normal"
+        },
+        {
+          "tag": "头戴耳机",
+          "tag_en": "headphones",
+          "weight": "normal"
+        },
+        {
+          "tag": "猫耳耳机",
+          "tag_en": "cat ear headphones",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳罩",
+          "tag_en": "earmuffs",
+          "weight": "normal"
+        },
+        {
+          "tag": "兜帽",
+          "tag_en": "hood",
+          "weight": "normal"
+        },
+        {
+          "tag": "面纱",
+          "tag_en": "veil",
+          "weight": "normal"
+        },
+        {
+          "tag": "面纱遮脸",
+          "tag_en": "veil over face",
+          "weight": "normal"
+        },
+        {
+          "tag": "簪花",
+          "tag_en": "hair flower",
+          "weight": "normal"
+        },
+        {
+          "tag": "发簪",
+          "tag_en": "hair stick",
+          "weight": "normal"
+        },
+        {
+          "tag": "发梳",
+          "tag_en": "hair comb",
+          "weight": "normal"
+        },
+        {
+          "tag": "发网",
+          "tag_en": "hair net",
+          "weight": "normal"
+        },
+        {
+          "tag": "波奈特帽",
+          "tag_en": "bonnet",
+          "weight": "normal"
+        },
+        {
+          "tag": "头盔",
+          "tag_en": "helmet",
+          "weight": "normal"
+        },
+        {
+          "tag": "安全帽",
+          "tag_en": "hard hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "军帽",
+          "tag_en": "military cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "大礼帽",
+          "tag_en": "top hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "药盒帽",
+          "tag_en": "pillbox hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "软呢帽",
+          "tag_en": "fedora",
+          "weight": "normal"
+        },
+        {
+          "tag": "平顶帽",
+          "tag_en": "flat cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "头巾",
+          "tag_en": "head scarf",
+          "weight": "normal"
+        },
+        {
+          "tag": "方巾",
+          "tag_en": "bandana",
+          "weight": "normal"
+        },
+        {
+          "tag": "发圈",
+          "tag_en": "hair scrunchie",
+          "weight": "normal"
+        },
+        {
+          "tag": "发绳",
+          "tag_en": "hair tie",
+          "weight": "normal"
+        },
+        {
+          "tag": "爪夹",
+          "tag_en": "hair claw clip",
+          "weight": "normal"
+        },
+        {
+          "tag": "羽毛头饰",
+          "tag_en": "feather headdress",
+          "weight": "normal"
+        },
+        {
+          "tag": "花冠",
+          "tag_en": "flower crown",
+          "weight": "normal"
+        },
+        {
+          "tag": "抹额",
+          "tag_en": "forehead band",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳套",
+          "tag_en": "ear covers",
+          "weight": "normal"
+        },
+        {
+          "tag": "面罩",
+          "tag_en": "face mask",
+          "weight": "normal"
+        },
+        {
+          "tag": "口罩",
+          "tag_en": "surgical mask",
+          "weight": "normal"
+        },
+        {
+          "tag": "睡眠眼罩",
+          "tag_en": "sleep mask",
+          "weight": "normal"
+        },
+        {
+          "tag": "泳帽",
+          "tag_en": "swim cap",
+          "weight": "normal"
+        },
+        {
+          "tag": "小礼帽",
+          "tag_en": "fascinator",
+          "weight": "normal"
+        },
+        {
+          "tag": "包头巾",
+          "tag_en": "turban",
+          "weight": "normal"
+        },
+        {
+          "tag": "摩托头盔",
+          "tag_en": "motorcycle helmet",
+          "weight": "normal"
+        },
+        {
+          "tag": "防毒面具",
+          "tag_en": "gas mask",
+          "weight": "normal"
+        },
+        {
+          "tag": "针织帽",
+          "tag_en": "beanie",
+          "weight": "normal"
+        },
+        {
+          "tag": "登山帽",
+          "tag_en": "trapper hat",
+          "weight": "normal"
+        },
+        {
+          "tag": "三角头巾",
+          "tag_en": "triangular headscarf",
+          "weight": "normal"
+        }
       ]
     },
     {
       "group_name": "配饰",
       "group_name_en": "Accessories",
       "tags": [
-        {"tag": "眼镜", "tag_en": "glasses", "weight": "normal"},
-        {"tag": "墨镜", "tag_en": "sunglasses", "weight": "normal"},
-        {"tag": "半框眼镜", "tag_en": "half-rim glasses", "weight": "normal"},
-        {"tag": "无框眼镜", "tag_en": "rimless glasses", "weight": "normal"},
-        {"tag": "圆框眼镜", "tag_en": "round eyewear", "weight": "normal"},
-        {"tag": "方框眼镜", "tag_en": "square eyewear", "weight": "normal"},
-        {"tag": "护目镜", "tag_en": "goggles", "weight": "normal"},
-        {"tag": "泳镜", "tag_en": "swim goggles", "weight": "normal"},
-        {"tag": "单片眼镜", "tag_en": "monocle", "weight": "normal"},
-        {"tag": "项链", "tag_en": "necklace", "weight": "normal"},
-        {"tag": "珍珠项链", "tag_en": "pearl necklace", "weight": "normal"},
-        {"tag": "吊坠", "tag_en": "pendant", "weight": "normal"},
-        {"tag": "项圈", "tag_en": "choker", "weight": "normal"},
-        {"tag": "蕾丝项圈", "tag_en": "lace choker", "weight": "normal"},
-        {"tag": "铆钉项圈", "tag_en": "spiked choker", "weight": "normal"},
-        {"tag": "珍珠项圈", "tag_en": "pearl choker", "weight": "normal"},
-        {"tag": "耳环", "tag_en": "earrings", "weight": "normal"},
-        {"tag": "圈形耳环", "tag_en": "hoop earrings", "weight": "normal"},
-        {"tag": "垂坠耳环", "tag_en": "dangle earrings", "weight": "normal"},
-        {"tag": "耳钉", "tag_en": "stud earrings", "weight": "normal"},
-        {"tag": "耳夹", "tag_en": "ear clip", "weight": "normal"},
-        {"tag": "耳骨夹", "tag_en": "ear cuff", "weight": "normal"},
-        {"tag": "手镯", "tag_en": "bracelet", "weight": "normal"},
-        {"tag": "手环", "tag_en": "bangle", "weight": "normal"},
-        {"tag": "串珠手链", "tag_en": "beaded bracelet", "weight": "normal"},
-        {"tag": "手表", "tag_en": "watch", "weight": "normal"},
-        {"tag": "怀表", "tag_en": "pocket watch", "weight": "normal"},
-        {"tag": "戒指", "tag_en": "ring", "weight": "normal"},
-        {"tag": "多枚戒指", "tag_en": "multiple rings", "weight": "normal"},
-        {"tag": "臂环", "tag_en": "armband", "weight": "normal"},
-        {"tag": "臂钏", "tag_en": "armlet", "weight": "normal"},
-        {"tag": "臂章", "tag_en": "armband patch", "weight": "normal"},
-        {"tag": "手套", "tag_en": "gloves", "weight": "normal"},
-        {"tag": "皮手套", "tag_en": "leather gloves", "weight": "normal"},
-        {"tag": "蕾丝手套", "tag_en": "lace gloves", "weight": "normal"},
-        {"tag": "半指手套", "tag_en": "fingerless gloves", "weight": "normal"},
-        {"tag": "肘长手套", "tag_en": "elbow gloves", "weight": "normal"},
-        {"tag": " opera手套", "tag_en": "opera gloves", "weight": "normal"},
-        {"tag": "无指手套", "tag_en": "mittens", "weight": "normal"},
-        {"tag": "腰带", "tag_en": "belt", "weight": "normal"},
-        {"tag": "宽腰带", "tag_en": "wide belt", "weight": "normal"},
-        {"tag": "和服带缔", "tag_en": "obijime", "weight": "normal"},
-        {"tag": "和服带", "tag_en": "obi", "weight": "normal"},
-        {"tag": "领带", "tag_en": "necktie", "weight": "normal"},
-        {"tag": "领结", "tag_en": "bowtie", "weight": "normal"},
-        {"tag": "领巾", "tag_en": "ascot", "weight": "normal"},
-        {"tag": "围巾", "tag_en": "scarf", "weight": "normal"},
-        {"tag": "丝巾", "tag_en": "neck scarf", "weight": "normal"},
-        {"tag": "披肩", "tag_en": "shawl", "weight": "normal"},
-        {"tag": "包", "tag_en": "bag", "weight": "normal"},
-        {"tag": "手提包", "tag_en": "handbag", "weight": "normal"},
-        {"tag": "背包", "tag_en": "backpack", "weight": "normal"},
-        {"tag": "邮差包", "tag_en": "messenger bag", "weight": "normal"},
-        {"tag": "手提箱", "tag_en": "suitcase", "weight": "normal"},
-        {"tag": "钱包", "tag_en": "wallet", "weight": "normal"},
-        {"tag": "手杖", "tag_en": "cane", "weight": "normal"},
-        {"tag": "阳伞", "tag_en": "parasol", "weight": "normal"},
-        {"tag": "手铐", "tag_en": "cuffs", "weight": "normal"},
-        {"tag": "镣铐", "tag_en": "shackles", "weight": "normal"},
-        {"tag": "项圈(装饰)", "tag_en": "collar", "weight": "normal"},
-        {"tag": "牵引绳", "tag_en": "leash", "weight": "normal"},
-        {"tag": "口球", "tag_en": "ball gag", "weight": "normal"},
-        {"tag": "眼罩(装饰)", "tag_en": "blindfold", "weight": "normal"},
-        {"tag": "鼻环", "tag_en": "nose ring", "weight": "normal"},
-        {"tag": "唇环", "tag_en": "lip ring", "weight": "normal"},
-        {"tag": "眉钉", "tag_en": "eyebrow piercing", "weight": "normal"},
-        {"tag": "脐钉", "tag_en": "navel piercing", "weight": "normal"},
-        {"tag": "舌钉", "tag_en": "tongue piercing", "weight": "normal"},
-        {"tag": "纹身贴", "tag_en": "temporary tattoo", "weight": "normal"},
-        {"tag": "徽章", "tag_en": "badge", "weight": "normal"},
-        {"tag": "勋章", "tag_en": "medal", "weight": "normal"},
-        {"tag": "绶带", "tag_en": "sash", "weight": "normal"},
-        {"tag": "腰带挂饰", "tag_en": "belt chain", "weight": "normal"},
-        {"tag": "腰包", "tag_en": "fanny pack", "weight": "normal"},
-        {"tag": "腿包", "tag_en": "thigh pouch", "weight": "normal"}
+        {
+          "tag": "眼镜",
+          "tag_en": "glasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "墨镜",
+          "tag_en": "sunglasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "半框眼镜",
+          "tag_en": "half-rim glasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "无框眼镜",
+          "tag_en": "rimless glasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "圆框眼镜",
+          "tag_en": "round eyewear",
+          "weight": "normal"
+        },
+        {
+          "tag": "方框眼镜",
+          "tag_en": "square eyewear",
+          "weight": "normal"
+        },
+        {
+          "tag": "护目镜",
+          "tag_en": "goggles",
+          "weight": "normal"
+        },
+        {
+          "tag": "泳镜",
+          "tag_en": "swim goggles",
+          "weight": "normal"
+        },
+        {
+          "tag": "单片眼镜",
+          "tag_en": "monocle",
+          "weight": "normal"
+        },
+        {
+          "tag": "项链",
+          "tag_en": "necklace",
+          "weight": "normal"
+        },
+        {
+          "tag": "珍珠项链",
+          "tag_en": "pearl necklace",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊坠",
+          "tag_en": "pendant",
+          "weight": "normal"
+        },
+        {
+          "tag": "项圈",
+          "tag_en": "choker",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝项圈",
+          "tag_en": "lace choker",
+          "weight": "normal"
+        },
+        {
+          "tag": "铆钉项圈",
+          "tag_en": "spiked choker",
+          "weight": "normal"
+        },
+        {
+          "tag": "珍珠项圈",
+          "tag_en": "pearl choker",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳环",
+          "tag_en": "earrings",
+          "weight": "normal"
+        },
+        {
+          "tag": "圈形耳环",
+          "tag_en": "hoop earrings",
+          "weight": "normal"
+        },
+        {
+          "tag": "垂坠耳环",
+          "tag_en": "dangle earrings",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳钉",
+          "tag_en": "stud earrings",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳夹",
+          "tag_en": "ear clip",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳骨夹",
+          "tag_en": "ear cuff",
+          "weight": "normal"
+        },
+        {
+          "tag": "手镯",
+          "tag_en": "bracelet",
+          "weight": "normal"
+        },
+        {
+          "tag": "手环",
+          "tag_en": "bangle",
+          "weight": "normal"
+        },
+        {
+          "tag": "串珠手链",
+          "tag_en": "beaded bracelet",
+          "weight": "normal"
+        },
+        {
+          "tag": "手表",
+          "tag_en": "watch",
+          "weight": "normal"
+        },
+        {
+          "tag": "怀表",
+          "tag_en": "pocket watch",
+          "weight": "normal"
+        },
+        {
+          "tag": "戒指",
+          "tag_en": "ring",
+          "weight": "normal"
+        },
+        {
+          "tag": "多枚戒指",
+          "tag_en": "multiple rings",
+          "weight": "normal"
+        },
+        {
+          "tag": "臂环",
+          "tag_en": "armband",
+          "weight": "normal"
+        },
+        {
+          "tag": "臂钏",
+          "tag_en": "armlet",
+          "weight": "normal"
+        },
+        {
+          "tag": "臂章",
+          "tag_en": "armband patch",
+          "weight": "normal"
+        },
+        {
+          "tag": "手套",
+          "tag_en": "gloves",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮手套",
+          "tag_en": "leather gloves",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝手套",
+          "tag_en": "lace gloves",
+          "weight": "normal"
+        },
+        {
+          "tag": "半指手套",
+          "tag_en": "fingerless gloves",
+          "weight": "normal"
+        },
+        {
+          "tag": "肘长手套",
+          "tag_en": "elbow gloves",
+          "weight": "normal"
+        },
+        {
+          "tag": " opera手套",
+          "tag_en": "opera gloves",
+          "weight": "normal"
+        },
+        {
+          "tag": "无指手套",
+          "tag_en": "mittens",
+          "weight": "normal"
+        },
+        {
+          "tag": "腰带",
+          "tag_en": "belt",
+          "weight": "normal"
+        },
+        {
+          "tag": "宽腰带",
+          "tag_en": "wide belt",
+          "weight": "normal"
+        },
+        {
+          "tag": "和服带缔",
+          "tag_en": "obijime",
+          "weight": "normal"
+        },
+        {
+          "tag": "和服带",
+          "tag_en": "obi",
+          "weight": "normal"
+        },
+        {
+          "tag": "领带",
+          "tag_en": "necktie",
+          "weight": "normal"
+        },
+        {
+          "tag": "领结",
+          "tag_en": "bowtie",
+          "weight": "normal"
+        },
+        {
+          "tag": "领巾",
+          "tag_en": "ascot",
+          "weight": "normal"
+        },
+        {
+          "tag": "围巾",
+          "tag_en": "scarf",
+          "weight": "normal"
+        },
+        {
+          "tag": "丝巾",
+          "tag_en": "neck scarf",
+          "weight": "normal"
+        },
+        {
+          "tag": "披肩",
+          "tag_en": "shawl",
+          "weight": "normal"
+        },
+        {
+          "tag": "包",
+          "tag_en": "bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "手提包",
+          "tag_en": "handbag",
+          "weight": "normal"
+        },
+        {
+          "tag": "背包",
+          "tag_en": "backpack",
+          "weight": "normal"
+        },
+        {
+          "tag": "邮差包",
+          "tag_en": "messenger bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "手提箱",
+          "tag_en": "suitcase",
+          "weight": "normal"
+        },
+        {
+          "tag": "钱包",
+          "tag_en": "wallet",
+          "weight": "normal"
+        },
+        {
+          "tag": "手杖",
+          "tag_en": "cane",
+          "weight": "normal"
+        },
+        {
+          "tag": "阳伞",
+          "tag_en": "parasol",
+          "weight": "normal"
+        },
+        {
+          "tag": "手铐",
+          "tag_en": "cuffs",
+          "weight": "normal"
+        },
+        {
+          "tag": "镣铐",
+          "tag_en": "shackles",
+          "weight": "normal"
+        },
+        {
+          "tag": "项圈(装饰)",
+          "tag_en": "collar",
+          "weight": "normal"
+        },
+        {
+          "tag": "牵引绳",
+          "tag_en": "leash",
+          "weight": "normal"
+        },
+        {
+          "tag": "口球",
+          "tag_en": "ball gag",
+          "weight": "normal"
+        },
+        {
+          "tag": "眼罩(装饰)",
+          "tag_en": "blindfold",
+          "weight": "normal"
+        },
+        {
+          "tag": "鼻环",
+          "tag_en": "nose ring",
+          "weight": "normal"
+        },
+        {
+          "tag": "唇环",
+          "tag_en": "lip ring",
+          "weight": "normal"
+        },
+        {
+          "tag": "眉钉",
+          "tag_en": "eyebrow piercing",
+          "weight": "normal"
+        },
+        {
+          "tag": "脐钉",
+          "tag_en": "navel piercing",
+          "weight": "normal"
+        },
+        {
+          "tag": "舌钉",
+          "tag_en": "tongue piercing",
+          "weight": "normal"
+        },
+        {
+          "tag": "纹身贴",
+          "tag_en": "temporary tattoo",
+          "weight": "normal"
+        },
+        {
+          "tag": "徽章",
+          "tag_en": "badge",
+          "weight": "normal"
+        },
+        {
+          "tag": "勋章",
+          "tag_en": "medal",
+          "weight": "normal"
+        },
+        {
+          "tag": "绶带",
+          "tag_en": "sash",
+          "weight": "normal"
+        },
+        {
+          "tag": "腰带挂饰",
+          "tag_en": "belt chain",
+          "weight": "normal"
+        },
+        {
+          "tag": "腰包",
+          "tag_en": "fanny pack",
+          "weight": "normal"
+        },
+        {
+          "tag": "腿包",
+          "tag_en": "thigh pouch",
+          "weight": "normal"
+        },
+        {
+          "tag": "猫眼眼镜",
+          "tag_en": "cat eye glasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "心形眼镜",
+          "tag_en": "heart-shaped glasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "有色眼镜",
+          "tag_en": "tinted glasses",
+          "weight": "normal"
+        },
+        {
+          "tag": "袖扣",
+          "tag_en": "cufflinks",
+          "weight": "normal"
+        },
+        {
+          "tag": "领针",
+          "tag_en": "tie pin",
+          "weight": "normal"
+        },
+        {
+          "tag": "领带夹",
+          "tag_en": "tie clip",
+          "weight": "normal"
+        },
+        {
+          "tag": "胸针",
+          "tag_en": "brooch",
+          "weight": "normal"
+        },
+        {
+          "tag": "胸花",
+          "tag_en": "corsage",
+          "weight": "normal"
+        },
+        {
+          "tag": "钥匙链",
+          "tag_en": "keychain",
+          "weight": "normal"
+        },
+        {
+          "tag": "挂饰",
+          "tag_en": "charm",
+          "weight": "normal"
+        },
+        {
+          "tag": "脚链",
+          "tag_en": "ankle bracelet",
+          "weight": "normal"
+        },
+        {
+          "tag": "指节戒指",
+          "tag_en": "knuckle ring",
+          "weight": "normal"
+        },
+        {
+          "tag": "面链",
+          "tag_en": "face chain",
+          "weight": "normal"
+        },
+        {
+          "tag": "身体链",
+          "tag_en": "body chain",
+          "weight": "normal"
+        },
+        {
+          "tag": "腰链",
+          "tag_en": "waist chain",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳扩",
+          "tag_en": "ear gauge",
+          "weight": "normal"
+        },
+        {
+          "tag": "耳骨环",
+          "tag_en": "helix piercing",
+          "weight": "normal"
+        },
+        {
+          "tag": "扇子",
+          "tag_en": "fan",
+          "weight": "normal"
+        },
+        {
+          "tag": "折扇",
+          "tag_en": "folding fan",
+          "weight": "normal"
+        },
+        {
+          "tag": "团扇",
+          "tag_en": "round fan",
+          "weight": "normal"
+        },
+        {
+          "tag": "手帕",
+          "tag_en": "handkerchief",
+          "weight": "normal"
+        },
+        {
+          "tag": "护腕",
+          "tag_en": "wristband",
+          "weight": "normal"
+        },
+        {
+          "tag": "护膝",
+          "tag_en": "knee pad",
+          "weight": "normal"
+        },
+        {
+          "tag": "皮带扣",
+          "tag_en": "belt buckle",
+          "weight": "normal"
+        },
+        {
+          "tag": "腿环",
+          "tag_en": "leg garter",
+          "weight": "normal"
+        },
+        {
+          "tag": "臂带",
+          "tag_en": "arm garter",
+          "weight": "normal"
+        },
+        {
+          "tag": "挎包",
+          "tag_en": "crossbody bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "手提袋",
+          "tag_en": "tote bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "单肩包",
+          "tag_en": "shoulder bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "手拿包",
+          "tag_en": "clutch",
+          "weight": "normal"
+        },
+        {
+          "tag": "零钱包",
+          "tag_en": "coin purse",
+          "weight": "normal"
+        },
+        {
+          "tag": "化妆包",
+          "tag_en": "cosmetic bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "伞",
+          "tag_en": "umbrella",
+          "weight": "normal"
+        },
+        {
+          "tag": "纸伞",
+          "tag_en": "paper umbrella",
+          "weight": "normal"
+        },
+        {
+          "tag": "油纸伞",
+          "tag_en": "oil paper umbrella",
+          "weight": "normal"
+        },
+        {
+          "tag": "权杖",
+          "tag_en": "scepter",
+          "weight": "normal"
+        },
+        {
+          "tag": "魔法杖",
+          "tag_en": "magic wand",
+          "weight": "normal"
+        },
+        {
+          "tag": "手杖",
+          "tag_en": "walking stick",
+          "weight": "normal"
+        },
+        {
+          "tag": "烟斗",
+          "tag_en": "smoking pipe",
+          "weight": "normal"
+        },
+        {
+          "tag": "刀",
+          "tag_en": "knife",
+          "weight": "normal"
+        },
+        {
+          "tag": "剑",
+          "tag_en": "sword",
+          "weight": "normal"
+        },
+        {
+          "tag": "枪套",
+          "tag_en": "holster",
+          "weight": "normal"
+        },
+        {
+          "tag": "臀包",
+          "tag_en": "hip bag",
+          "weight": "normal"
+        },
+        {
+          "tag": "护目头盔",
+          "tag_en": "visor helmet",
+          "weight": "normal"
+        },
+        {
+          "tag": "面纱帽",
+          "tag_en": "hat with veil",
+          "weight": "normal"
+        },
+        {
+          "tag": "纹身",
+          "tag_en": "tattoo",
+          "weight": "normal"
+        },
+        {
+          "tag": "贴纸",
+          "tag_en": "sticker",
+          "weight": "normal"
+        },
+        {
+          "tag": "肩章",
+          "tag_en": "epaulette",
+          "weight": "normal"
+        },
+        {
+          "tag": "姓名牌",
+          "tag_en": "name tag",
+          "weight": "normal"
+        }
+      ]
+    },
+    {
+      "group_name": "内衣",
+      "group_name_en": "Underwear & Lingerie",
+      "tags": [
+        {
+          "tag": "文胸",
+          "tag_en": "bra",
+          "weight": "normal"
+        },
+        {
+          "tag": "无钢圈内衣",
+          "tag_en": "wireless bra",
+          "weight": "normal"
+        },
+        {
+          "tag": "运动内衣",
+          "tag_en": "sports bra",
+          "weight": "normal"
+        },
+        {
+          "tag": "无肩带内衣",
+          "tag_en": "strapless bra",
+          "weight": "normal"
+        },
+        {
+          "tag": "隐形内衣",
+          "tag_en": "adhesive bra",
+          "weight": "normal"
+        },
+        {
+          "tag": "胸贴",
+          "tag_en": "nipple pasties",
+          "weight": "normal"
+        },
+        {
+          "tag": "乳贴",
+          "tag_en": "breast petals",
+          "weight": "normal"
+        },
+        {
+          "tag": "内裤",
+          "tag_en": "panties",
+          "weight": "normal"
+        },
+        {
+          "tag": "丁字裤",
+          "tag_en": "thong",
+          "weight": "normal"
+        },
+        {
+          "tag": "G弦裤",
+          "tag_en": "g-string",
+          "weight": "normal"
+        },
+        {
+          "tag": "三角裤",
+          "tag_en": "bikini panties",
+          "weight": "normal"
+        },
+        {
+          "tag": "平角内裤",
+          "tag_en": "boyshorts",
+          "weight": "normal"
+        },
+        {
+          "tag": "高腰内裤",
+          "tag_en": "high-leg panties",
+          "weight": "normal"
+        },
+        {
+          "tag": "四角内裤",
+          "tag_en": "boxer briefs",
+          "weight": "normal"
+        },
+        {
+          "tag": "三角内裤(男)",
+          "tag_en": "briefs",
+          "weight": "normal"
+        },
+        {
+          "tag": "平角短裤(男)",
+          "tag_en": "boxer shorts",
+          "weight": "normal"
+        },
+        {
+          "tag": "情趣内衣",
+          "tag_en": "sexy lingerie",
+          "weight": "normal"
+        },
+        {
+          "tag": "内衣套装",
+          "tag_en": "lingerie set",
+          "weight": "normal"
+        },
+        {
+          "tag": "束腰",
+          "tag_en": "corset",
+          "weight": "normal"
+        },
+        {
+          "tag": "塑身衣",
+          "tag_en": "shapewear",
+          "weight": "normal"
+        },
+        {
+          "tag": "束腰带",
+          "tag_en": "waist trainer",
+          "weight": "normal"
+        },
+        {
+          "tag": "蕾丝内衣",
+          "tag_en": "lace lingerie",
+          "weight": "normal"
+        },
+        {
+          "tag": "丝绸内衣",
+          "tag_en": "silk lingerie",
+          "weight": "normal"
+        },
+        {
+          "tag": "透明内衣",
+          "tag_en": "sheer lingerie",
+          "weight": "normal"
+        },
+        {
+          "tag": "前扣内衣",
+          "tag_en": "front closure bra",
+          "weight": "normal"
+        },
+        {
+          "tag": "保暖内衣",
+          "tag_en": "thermal underwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "秋衣秋裤",
+          "tag_en": "long underwear",
+          "weight": "normal"
+        },
+        {
+          "tag": "肚兜",
+          "tag_en": "doudou",
+          "weight": "normal"
+        },
+        {
+          "tag": "衬裙",
+          "tag_en": "slip petticoat",
+          "weight": "normal"
+        },
+        {
+          "tag": "吊带背心(内搭)",
+          "tag_en": "camisole top",
+          "weight": "normal"
+        }
+      ]
+    },
+    {
+      "group_name": "制服",
+      "group_name_en": "Uniforms",
+      "tags": [
+        {
+          "tag": "校服",
+          "tag_en": "school uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "西装校服",
+          "tag_en": "blazer school uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "运动校服",
+          "tag_en": "sports school uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "空乘制服",
+          "tag_en": "flight attendant uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "飞行员制服",
+          "tag_en": "pilot uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "列车员制服",
+          "tag_en": "train conductor uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "服务生制服",
+          "tag_en": "bellhop uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "酒店制服",
+          "tag_en": "hotel uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "厨师服",
+          "tag_en": "chef uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "医生白大褂",
+          "tag_en": "doctor coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "手术服",
+          "tag_en": "scrubs",
+          "weight": "normal"
+        },
+        {
+          "tag": "实验室白大褂",
+          "tag_en": "lab coat",
+          "weight": "normal"
+        },
+        {
+          "tag": "消防员制服",
+          "tag_en": "firefighter uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "保安制服",
+          "tag_en": "security uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "邮政制服",
+          "tag_en": "postal uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "童子军制服",
+          "tag_en": "scout uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "乐队制服",
+          "tag_en": "marching band uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "棒球服",
+          "tag_en": "baseball uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "足球服",
+          "tag_en": "soccer uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "篮球服",
+          "tag_en": "basketball uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "裁判服",
+          "tag_en": "referee uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "剑道服",
+          "tag_en": "kendo uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "柔道服",
+          "tag_en": "judogi",
+          "weight": "normal"
+        },
+        {
+          "tag": "武术服",
+          "tag_en": "martial arts uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "芭蕾舞服",
+          "tag_en": "ballet uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "芭蕾舞裙",
+          "tag_en": "ballet tutu",
+          "weight": "normal"
+        },
+        {
+          "tag": "演出制服",
+          "tag_en": "stage uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "仪仗队制服",
+          "tag_en": "honor guard uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "保洁服",
+          "tag_en": "janitor uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "法警制服",
+          "tag_en": "court bailiff uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "狱警制服",
+          "tag_en": "prison guard uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "侍者制服",
+          "tag_en": "waiter uniform",
+          "weight": "normal"
+        },
+        {
+          "tag": "神父服",
+          "tag_en": "priest cassock",
+          "weight": "normal"
+        },
+        {
+          "tag": "修女服",
+          "tag_en": "nun habit",
+          "weight": "normal"
+        },
+        {
+          "tag": "僧侣服",
+          "tag_en": "monk robe",
+          "weight": "normal"
+        }
       ]
     }
   ]

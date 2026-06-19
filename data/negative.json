@@ -7,284 +7,1824 @@
             "group_name": "画质问题",
             "group_name_en": "Quality Issues",
             "tags": [
-                {"tag": "低画质", "tag_en": "low quality", "weight": 1},
-                {"tag": "最差画质", "tag_en": "worst quality", "weight": 1},
-                {"tag": "正常画质", "tag_en": "normal quality", "weight": 1},
-                {"tag": "低保真", "tag_en": "low fidelity", "weight": 1},
-                {"tag": "低分辨率", "tag_en": "low res", "weight": 1},
-                {"tag": "模糊", "tag_en": "blurry", "weight": 1},
-                {"tag": "失焦", "tag_en": "out of focus", "weight": 1},
-                {"tag": "像素化", "tag_en": "pixelated", "weight": 1},
-                {"tag": "压缩伪影", "tag_en": "compression artifacts", "weight": 1},
-                {"tag": "JPEG伪影", "tag_en": "jpeg artifacts", "weight": 1},
-                {"tag": "噪点", "tag_en": "noisy", "weight": 1},
-                {"tag": "颗粒感", "tag_en": "grainy", "weight": 1},
-                {"tag": "过度锐化", "tag_en": "oversharpened", "weight": 1},
-                {"tag": "扫描伪影", "tag_en": "scan artifacts", "weight": 1},
-                {"tag": "水印", "tag_en": "watermark", "weight": 1},
-                {"tag": "签名", "tag_en": "signature", "weight": 1},
-                {"tag": "文字水印", "tag_en": "text watermark", "weight": 1},
-                {"tag": "裁切", "tag_en": "cropped", "weight": 1},
-                {"tag": "截断", "tag_en": "truncated", "weight": 1},
-                {"tag": "边框", "tag_en": "border", "weight": 1},
-                {"tag": "框架", "tag_en": "frame", "weight": 1},
-                {"tag": "出界", "tag_en": "out of frame", "weight": 1},
-                {"tag": "画面外", "tag_en": "out of frame", "weight": 1}
+                {
+                    "tag": "低画质",
+                    "tag_en": "low quality",
+                    "weight": 1
+                },
+                {
+                    "tag": "最差画质",
+                    "tag_en": "worst quality",
+                    "weight": 1
+                },
+                {
+                    "tag": "正常画质",
+                    "tag_en": "normal quality",
+                    "weight": 1
+                },
+                {
+                    "tag": "低保真",
+                    "tag_en": "low fidelity",
+                    "weight": 1
+                },
+                {
+                    "tag": "低分辨率",
+                    "tag_en": "low res",
+                    "weight": 1
+                },
+                {
+                    "tag": "模糊",
+                    "tag_en": "blurry",
+                    "weight": 1
+                },
+                {
+                    "tag": "失焦",
+                    "tag_en": "out of focus",
+                    "weight": 1
+                },
+                {
+                    "tag": "像素化",
+                    "tag_en": "pixelated",
+                    "weight": 1
+                },
+                {
+                    "tag": "压缩伪影",
+                    "tag_en": "compression artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "JPEG伪影",
+                    "tag_en": "jpeg artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "噪点",
+                    "tag_en": "noisy",
+                    "weight": 1
+                },
+                {
+                    "tag": "颗粒感",
+                    "tag_en": "grainy",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度锐化",
+                    "tag_en": "oversharpened",
+                    "weight": 1
+                },
+                {
+                    "tag": "扫描伪影",
+                    "tag_en": "scan artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "水印",
+                    "tag_en": "watermark",
+                    "weight": 1
+                },
+                {
+                    "tag": "签名",
+                    "tag_en": "signature",
+                    "weight": 1
+                },
+                {
+                    "tag": "文字水印",
+                    "tag_en": "text watermark",
+                    "weight": 1
+                },
+                {
+                    "tag": "裁切",
+                    "tag_en": "cropped",
+                    "weight": 1
+                },
+                {
+                    "tag": "截断",
+                    "tag_en": "truncated",
+                    "weight": 1
+                },
+                {
+                    "tag": "边框",
+                    "tag_en": "border",
+                    "weight": 1
+                },
+                {
+                    "tag": "框架",
+                    "tag_en": "frame",
+                    "weight": 1
+                },
+                {
+                    "tag": "出界",
+                    "tag_en": "out of frame",
+                    "weight": 1
+                },
+                {
+                    "tag": "画面外",
+                    "tag_en": "out of frame",
+                    "weight": 1
+                },
+                {
+                    "tag": "摩尔纹",
+                    "tag_en": "moire pattern",
+                    "weight": 1
+                },
+                {
+                    "tag": "锯齿",
+                    "tag_en": "aliasing",
+                    "weight": 1
+                },
+                {
+                    "tag": "色差",
+                    "tag_en": "chromatic aberration",
+                    "weight": 1
+                },
+                {
+                    "tag": "镜头畸变",
+                    "tag_en": "lens distortion",
+                    "weight": 1
+                },
+                {
+                    "tag": "暗角",
+                    "tag_en": "vignette",
+                    "weight": 1
+                },
+                {
+                    "tag": "过曝",
+                    "tag_en": "overexposed",
+                    "weight": 1
+                },
+                {
+                    "tag": "欠曝",
+                    "tag_en": "underexposed",
+                    "weight": 1
+                },
+                {
+                    "tag": "运动模糊",
+                    "tag_en": "motion blur",
+                    "weight": 1
+                },
+                {
+                    "tag": "雾化",
+                    "tag_en": "hazy",
+                    "weight": 1
+                },
+                {
+                    "tag": "闪烁",
+                    "tag_en": "flicker",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "人体结构",
             "group_name_en": "Anatomy Issues",
             "tags": [
-                {"tag": "解剖不良", "tag_en": "bad anatomy", "weight": 1},
-                {"tag": "解剖错误", "tag_en": "anatomical nonsense", "weight": 1},
-                {"tag": "人体畸形", "tag_en": "deformed", "weight": 1},
-                {"tag": "肢体畸形", "tag_en": "disfigured", "weight": 1},
-                {"tag": "比例失调", "tag_en": "bad proportions", "weight": 1},
-                {"tag": "畸形比例", "tag_en": "malformed proportions", "weight": 1},
-                {"tag": "多余手指", "tag_en": "extra fingers", "weight": 1},
-                {"tag": "少手指", "tag_en": "fewer fingers", "weight": 1},
-                {"tag": "融合手指", "tag_en": "fused fingers", "weight": 1},
-                {"tag": "多余肢体", "tag_en": "extra limbs", "weight": 1},
-                {"tag": "少肢体", "tag_en": "missing limbs", "weight": 1},
-                {"tag": "多余手臂", "tag_en": "extra arms", "weight": 1},
-                {"tag": "多余腿", "tag_en": "extra legs", "weight": 1},
-                {"tag": "长脖子", "tag_en": "long neck", "weight": 1},
-                {"tag": "突变手", "tag_en": "mutated hands", "weight": 1},
-                {"tag": "畸形手", "tag_en": "mutated hand", "weight": 1},
-                {"tag": "画错的手", "tag_en": "poorly drawn hands", "weight": 1},
-                {"tag": "画错的手指", "tag_en": "poorly drawn fingers", "weight": 1},
-                {"tag": "画错的脚", "tag_en": "poorly drawn feet", "weight": 1},
-                {"tag": "缺失手指", "tag_en": "missing fingers", "weight": 1},
-                {"tag": "截肢", "tag_en": "amputation", "weight": 1},
-                {"tag": "浮空肢体", "tag_en": "floating limbs", "weight": 1},
-                {"tag": "断肢", "tag_en": "disconnected limbs", "weight": 1},
-                {"tag": "身体扭曲", "tag_en": "body out of frame", "weight": 1},
-                {"tag": "不对称", "tag_en": "asymmetrical", "weight": 1},
-                {"tag": "面部不对称", "tag_en": "asymmetrical face", "weight": 1},
-                {"tag": "面部畸形", "tag_en": "facial deformity", "weight": 1},
-                {"tag": "五官错位", "tag_en": "misaligned facial features", "weight": 1},
-                {"tag": "多余耳朵", "tag_en": "extra ears", "weight": 1},
-                {"tag": "大鼻子", "tag_en": "ugly nose", "weight": 1},
-                {"tag": "大嘴巴", "tag_en": "big mouth", "weight": 1},
-                {"tag": "歪嘴", "tag_en": "crooked mouth", "weight": 1},
-                {"tag": "歪眼", "tag_en": "crooked eyes", "weight": 1},
-                {"tag": "大小眼", "tag_en": "uneven eyes", "weight": 1},
-                {"tag": "交叉眼", "tag_en": "cross-eyed", "weight": 1},
-                {"tag": "斗鸡眼", "tag_en": "strabismus", "weight": 1},
-                {"tag": "死鱼眼", "tag_en": "dead eyes", "weight": 1},
-                {"tag": "空洞眼神", "tag_en": "lifeless eyes", "weight": 1},
-                {"tag": "牙齿问题", "tag_en": "bad teeth", "weight": 1},
-                {"tag": "多余牙齿", "tag_en": "extra teeth", "weight": 1},
-                {"tag": "缺失牙齿", "tag_en": "missing teeth", "weight": 1}
+                {
+                    "tag": "解剖不良",
+                    "tag_en": "bad anatomy",
+                    "weight": 1
+                },
+                {
+                    "tag": "解剖错误",
+                    "tag_en": "anatomical nonsense",
+                    "weight": 1
+                },
+                {
+                    "tag": "人体畸形",
+                    "tag_en": "deformed",
+                    "weight": 1
+                },
+                {
+                    "tag": "肢体畸形",
+                    "tag_en": "disfigured",
+                    "weight": 1
+                },
+                {
+                    "tag": "比例失调",
+                    "tag_en": "bad proportions",
+                    "weight": 1
+                },
+                {
+                    "tag": "畸形比例",
+                    "tag_en": "malformed proportions",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余手指",
+                    "tag_en": "extra fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "少手指",
+                    "tag_en": "fewer fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "融合手指",
+                    "tag_en": "fused fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余肢体",
+                    "tag_en": "extra limbs",
+                    "weight": 1
+                },
+                {
+                    "tag": "少肢体",
+                    "tag_en": "missing limbs",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余手臂",
+                    "tag_en": "extra arms",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余腿",
+                    "tag_en": "extra legs",
+                    "weight": 1
+                },
+                {
+                    "tag": "长脖子",
+                    "tag_en": "long neck",
+                    "weight": 1
+                },
+                {
+                    "tag": "突变手",
+                    "tag_en": "mutated hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "畸形手",
+                    "tag_en": "mutated hand",
+                    "weight": 1
+                },
+                {
+                    "tag": "画错的手",
+                    "tag_en": "poorly drawn hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "画错的手指",
+                    "tag_en": "poorly drawn fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "画错的脚",
+                    "tag_en": "poorly drawn feet",
+                    "weight": 1
+                },
+                {
+                    "tag": "缺失手指",
+                    "tag_en": "missing fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "截肢",
+                    "tag_en": "amputation",
+                    "weight": 1
+                },
+                {
+                    "tag": "浮空肢体",
+                    "tag_en": "floating limbs",
+                    "weight": 1
+                },
+                {
+                    "tag": "断肢",
+                    "tag_en": "disconnected limbs",
+                    "weight": 1
+                },
+                {
+                    "tag": "身体扭曲",
+                    "tag_en": "body out of frame",
+                    "weight": 1
+                },
+                {
+                    "tag": "不对称",
+                    "tag_en": "asymmetrical",
+                    "weight": 1
+                },
+                {
+                    "tag": "面部不对称",
+                    "tag_en": "asymmetrical face",
+                    "weight": 1
+                },
+                {
+                    "tag": "面部畸形",
+                    "tag_en": "facial deformity",
+                    "weight": 1
+                },
+                {
+                    "tag": "五官错位",
+                    "tag_en": "misaligned facial features",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余耳朵",
+                    "tag_en": "extra ears",
+                    "weight": 1
+                },
+                {
+                    "tag": "大鼻子",
+                    "tag_en": "ugly nose",
+                    "weight": 1
+                },
+                {
+                    "tag": "大嘴巴",
+                    "tag_en": "big mouth",
+                    "weight": 1
+                },
+                {
+                    "tag": "歪嘴",
+                    "tag_en": "crooked mouth",
+                    "weight": 1
+                },
+                {
+                    "tag": "歪眼",
+                    "tag_en": "crooked eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "大小眼",
+                    "tag_en": "uneven eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "交叉眼",
+                    "tag_en": "cross-eyed",
+                    "weight": 1
+                },
+                {
+                    "tag": "斗鸡眼",
+                    "tag_en": "strabismus",
+                    "weight": 1
+                },
+                {
+                    "tag": "死鱼眼",
+                    "tag_en": "dead eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "空洞眼神",
+                    "tag_en": "lifeless eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "牙齿问题",
+                    "tag_en": "bad teeth",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余牙齿",
+                    "tag_en": "extra teeth",
+                    "weight": 1
+                },
+                {
+                    "tag": "缺失牙齿",
+                    "tag_en": "missing teeth",
+                    "weight": 1
+                },
+                {
+                    "tag": "无瞳孔",
+                    "tag_en": "no pupils",
+                    "weight": 1
+                },
+                {
+                    "tag": "白瞳",
+                    "tag_en": "white pupils",
+                    "weight": 1
+                },
+                {
+                    "tag": "表情呆滞",
+                    "tag_en": "derp face",
+                    "weight": 1
+                },
+                {
+                    "tag": "眼睛问题",
+                    "tag_en": "bad eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "眼球突出",
+                    "tag_en": "bulging eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "眼距过宽",
+                    "tag_en": "wide-set eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "眼距过窄",
+                    "tag_en": "close-set eyes",
+                    "weight": 1
+                },
+                {
+                    "tag": "身体比例奇怪",
+                    "tag_en": "weird body proportions",
+                    "weight": 1
+                },
+                {
+                    "tag": "上半身过长",
+                    "tag_en": "long torso",
+                    "weight": 1
+                },
+                {
+                    "tag": "腿过短",
+                    "tag_en": "short legs",
+                    "weight": 1
+                },
+                {
+                    "tag": "手臂过长",
+                    "tag_en": "long arms",
+                    "weight": 1
+                },
+                {
+                    "tag": "手臂过短",
+                    "tag_en": "short arms",
+                    "weight": 1
+                },
+                {
+                    "tag": "驼背",
+                    "tag_en": "hunched back",
+                    "weight": 1
+                },
+                {
+                    "tag": "头部过大",
+                    "tag_en": "oversized head",
+                    "weight": 1
+                },
+                {
+                    "tag": "头部过小",
+                    "tag_en": "undersized head",
+                    "weight": 1
+                },
+                {
+                    "tag": "姿势不自然",
+                    "tag_en": "unnatural pose",
+                    "weight": 1
+                },
+                {
+                    "tag": "脊椎扭曲",
+                    "tag_en": "twisted spine",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "头部与面部",
             "group_name_en": "Head & Face Issues",
             "tags": [
-                {"tag": "多头", "tag_en": "multiple heads", "weight": 1},
-                {"tag": "多脸", "tag_en": "multiple faces", "weight": 1},
-                {"tag": "克隆脸", "tag_en": "cloned face", "weight": 1},
-                {"tag": "融脸", "tag_en": "merged faces", "weight": 1},
-                {"tag": "面部融合", "tag_en": "face merge", "weight": 1},
-                {"tag": "画错的脸", "tag_en": "poorly drawn face", "weight": 1},
-                {"tag": "丑陋面容", "tag_en": "ugly face", "weight": 1},
-                {"tag": "怪异表情", "tag_en": "weird expression", "weight": 1},
-                {"tag": "诡异笑容", "tag_en": "creepy smile", "weight": 1},
-                {"tag": "双下巴", "tag_en": "double chin", "weight": 1},
-                {"tag": "皱纹过多", "tag_en": "excessive wrinkles", "weight": 1},
-                {"tag": "过度老化", "tag_en": "aged appearance", "weight": 1},
-                {"tag": "秃头", "tag_en": "bald", "weight": 1},
-                {"tag": "发际线后退", "tag_en": "receding hairline", "weight": 1},
-                {"tag": "乱发", "tag_en": "messy hair", "weight": 1},
-                {"tag": "头发凌乱", "tag_en": "unkempt hair", "weight": 1}
+                {
+                    "tag": "多头",
+                    "tag_en": "multiple heads",
+                    "weight": 1
+                },
+                {
+                    "tag": "多脸",
+                    "tag_en": "multiple faces",
+                    "weight": 1
+                },
+                {
+                    "tag": "克隆脸",
+                    "tag_en": "cloned face",
+                    "weight": 1
+                },
+                {
+                    "tag": "融脸",
+                    "tag_en": "merged faces",
+                    "weight": 1
+                },
+                {
+                    "tag": "面部融合",
+                    "tag_en": "face merge",
+                    "weight": 1
+                },
+                {
+                    "tag": "画错的脸",
+                    "tag_en": "poorly drawn face",
+                    "weight": 1
+                },
+                {
+                    "tag": "丑陋面容",
+                    "tag_en": "ugly face",
+                    "weight": 1
+                },
+                {
+                    "tag": "怪异表情",
+                    "tag_en": "weird expression",
+                    "weight": 1
+                },
+                {
+                    "tag": "诡异笑容",
+                    "tag_en": "creepy smile",
+                    "weight": 1
+                },
+                {
+                    "tag": "双下巴",
+                    "tag_en": "double chin",
+                    "weight": 1
+                },
+                {
+                    "tag": "皱纹过多",
+                    "tag_en": "excessive wrinkles",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度老化",
+                    "tag_en": "aged appearance",
+                    "weight": 1
+                },
+                {
+                    "tag": "秃头",
+                    "tag_en": "bald",
+                    "weight": 1
+                },
+                {
+                    "tag": "发际线后退",
+                    "tag_en": "receding hairline",
+                    "weight": 1
+                },
+                {
+                    "tag": "乱发",
+                    "tag_en": "messy hair",
+                    "weight": 1
+                },
+                {
+                    "tag": "头发凌乱",
+                    "tag_en": "unkempt hair",
+                    "weight": 1
+                },
+                {
+                    "tag": "面部扭曲",
+                    "tag_en": "distorted face",
+                    "weight": 1
+                },
+                {
+                    "tag": "表情僵硬",
+                    "tag_en": "stiff expression",
+                    "weight": 1
+                },
+                {
+                    "tag": "无表情",
+                    "tag_en": "blank expression",
+                    "weight": 1
+                },
+                {
+                    "tag": "眼袋",
+                    "tag_en": "eye bags",
+                    "weight": 1
+                },
+                {
+                    "tag": "黑眼圈",
+                    "tag_en": "dark circles",
+                    "weight": 1
+                },
+                {
+                    "tag": "额头过长",
+                    "tag_en": "long forehead",
+                    "weight": 1
+                },
+                {
+                    "tag": "下巴过长",
+                    "tag_en": "long chin",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "手部细节",
             "group_name_en": "Hand Details",
             "tags": [
-                {"tag": "画错的手", "tag_en": "poorly drawn hands", "weight": 1},
-                {"tag": "畸形手", "tag_en": "malformed hands", "weight": 1},
-                {"tag": "突变手", "tag_en": "mutated hands", "weight": 1},
-                {"tag": "多余手指", "tag_en": "extra fingers", "weight": 1},
-                {"tag": "6根手指", "tag_en": "6 fingers", "weight": 1},
-                {"tag": "7根手指", "tag_en": "7 fingers", "weight": 1},
-                {"tag": "缺失手指", "tag_en": "missing fingers", "weight": 1},
-                {"tag": "少手指", "tag_en": "fewer fingers", "weight": 1},
-                {"tag": "融合手指", "tag_en": "fused fingers", "weight": 1},
-                {"tag": "手指过长", "tag_en": "long fingers", "weight": 1},
-                {"tag": "手指过短", "tag_en": "short fingers", "weight": 1},
-                {"tag": "手指不自然", "tag_en": "unnatural fingers", "weight": 1},
-                {"tag": "拇指问题", "tag_en": "bad thumb", "weight": 1},
-                {"tag": "指甲问题", "tag_en": "bad nails", "weight": 1},
-                {"tag": "手部模糊", "tag_en": "blurry hands", "weight": 1},
-                {"tag": "手部缺失", "tag_en": "missing hands", "weight": 1},
-                {"tag": "手部多余", "tag_en": "extra hands", "weight": 1}
+                {
+                    "tag": "画错的手",
+                    "tag_en": "poorly drawn hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "畸形手",
+                    "tag_en": "malformed hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "突变手",
+                    "tag_en": "mutated hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余手指",
+                    "tag_en": "extra fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "6根手指",
+                    "tag_en": "6 fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "7根手指",
+                    "tag_en": "7 fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "缺失手指",
+                    "tag_en": "missing fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "少手指",
+                    "tag_en": "fewer fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "融合手指",
+                    "tag_en": "fused fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "手指过长",
+                    "tag_en": "long fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "手指过短",
+                    "tag_en": "short fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "手指不自然",
+                    "tag_en": "unnatural fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "拇指问题",
+                    "tag_en": "bad thumb",
+                    "weight": 1
+                },
+                {
+                    "tag": "指甲问题",
+                    "tag_en": "bad nails",
+                    "weight": 1
+                },
+                {
+                    "tag": "手部模糊",
+                    "tag_en": "blurry hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "手部缺失",
+                    "tag_en": "missing hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "手部多余",
+                    "tag_en": "extra hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "手掌问题",
+                    "tag_en": "bad palm",
+                    "weight": 1
+                },
+                {
+                    "tag": "手腕问题",
+                    "tag_en": "bad wrist",
+                    "weight": 1
+                },
+                {
+                    "tag": "手指重叠",
+                    "tag_en": "overlapping fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "手指僵硬",
+                    "tag_en": "stiff fingers",
+                    "weight": 1
+                },
+                {
+                    "tag": "手部过小",
+                    "tag_en": "tiny hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "手部过大",
+                    "tag_en": "oversized hands",
+                    "weight": 1
+                },
+                {
+                    "tag": "手部比例不正确",
+                    "tag_en": "wrong hand proportion",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "身体问题",
             "group_name_en": "Body Issues",
             "tags": [
-                {"tag": "身体过胖", "tag_en": "morbidly obese", "weight": 1},
-                {"tag": "过度肥胖", "tag_en": "fat", "weight": 1},
-                {"tag": "过度消瘦", "tag_en": "emaciated", "weight": 1},
-                {"tag": "肌肉过度", "tag_en": "excessively muscular", "weight": 1},
-                {"tag": "不自然肌肉", "tag_en": "unnatural muscles", "weight": 1},
-                {"tag": "躯干问题", "tag_en": "bad torso", "weight": 1},
-                {"tag": "躯干畸形", "tag_en": "malformed torso", "weight": 1},
-                {"tag": "脊柱弯曲", "tag_en": "curved spine", "weight": 1},
-                {"tag": "肩膀不自然", "tag_en": "unnatural shoulders", "weight": 1},
-                {"tag": "胸部不自然", "tag_en": "unnatural breasts", "weight": 1},
-                {"tag": "胸部大小不一", "tag_en": "asymmetrical breasts", "weight": 1},
-                {"tag": "多乳头", "tag_en": "extra nipples", "weight": 1},
-                {"tag": "肚脐问题", "tag_en": "bad navel", "weight": 1},
-                {"tag": "关节问题", "tag_en": "bad joints", "weight": 1},
-                {"tag": "膝盖问题", "tag_en": "bad knees", "weight": 1},
-                {"tag": "肘部问题", "tag_en": "bad elbows", "weight": 1},
-                {"tag": "脚部问题", "tag_en": "bad feet", "weight": 1},
-                {"tag": "脚趾问题", "tag_en": "bad toes", "weight": 1},
-                {"tag": "多脚趾", "tag_en": "extra toes", "weight": 1}
+                {
+                    "tag": "身体过胖",
+                    "tag_en": "morbidly obese",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度肥胖",
+                    "tag_en": "fat",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度消瘦",
+                    "tag_en": "emaciated",
+                    "weight": 1
+                },
+                {
+                    "tag": "肌肉过度",
+                    "tag_en": "excessively muscular",
+                    "weight": 1
+                },
+                {
+                    "tag": "不自然肌肉",
+                    "tag_en": "unnatural muscles",
+                    "weight": 1
+                },
+                {
+                    "tag": "躯干问题",
+                    "tag_en": "bad torso",
+                    "weight": 1
+                },
+                {
+                    "tag": "躯干畸形",
+                    "tag_en": "malformed torso",
+                    "weight": 1
+                },
+                {
+                    "tag": "脊柱弯曲",
+                    "tag_en": "curved spine",
+                    "weight": 1
+                },
+                {
+                    "tag": "肩膀不自然",
+                    "tag_en": "unnatural shoulders",
+                    "weight": 1
+                },
+                {
+                    "tag": "胸部不自然",
+                    "tag_en": "unnatural breasts",
+                    "weight": 1
+                },
+                {
+                    "tag": "胸部大小不一",
+                    "tag_en": "asymmetrical breasts",
+                    "weight": 1
+                },
+                {
+                    "tag": "多乳头",
+                    "tag_en": "extra nipples",
+                    "weight": 1
+                },
+                {
+                    "tag": "肚脐问题",
+                    "tag_en": "bad navel",
+                    "weight": 1
+                },
+                {
+                    "tag": "关节问题",
+                    "tag_en": "bad joints",
+                    "weight": 1
+                },
+                {
+                    "tag": "膝盖问题",
+                    "tag_en": "bad knees",
+                    "weight": 1
+                },
+                {
+                    "tag": "肘部问题",
+                    "tag_en": "bad elbows",
+                    "weight": 1
+                },
+                {
+                    "tag": "脚部问题",
+                    "tag_en": "bad feet",
+                    "weight": 1
+                },
+                {
+                    "tag": "脚趾问题",
+                    "tag_en": "bad toes",
+                    "weight": 1
+                },
+                {
+                    "tag": "多脚趾",
+                    "tag_en": "extra toes",
+                    "weight": 1
+                },
+                {
+                    "tag": "脖颈问题",
+                    "tag_en": "bad neck",
+                    "weight": 1
+                },
+                {
+                    "tag": "脖子过粗",
+                    "tag_en": "thick neck",
+                    "weight": 1
+                },
+                {
+                    "tag": "锁骨问题",
+                    "tag_en": "bad collarbone",
+                    "weight": 1
+                },
+                {
+                    "tag": "骨盆问题",
+                    "tag_en": "bad pelvis",
+                    "weight": 1
+                },
+                {
+                    "tag": "臀部畸形",
+                    "tag_en": "malformed hips",
+                    "weight": 1
+                },
+                {
+                    "tag": "腹部问题",
+                    "tag_en": "bad abdomen",
+                    "weight": 1
+                },
+                {
+                    "tag": "背部问题",
+                    "tag_en": "bad back",
+                    "weight": 1
+                },
+                {
+                    "tag": "皮肤异常",
+                    "tag_en": "abnormal skin",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "AI生成痕迹",
             "group_name_en": "AI Artifacts",
             "tags": [
-                {"tag": "AI伪影", "tag_en": "AI artifact", "weight": 1},
-                {"tag": "AI生成痕迹", "tag_en": "AI generated", "weight": 1},
-                {"tag": "3D渲染感", "tag_en": "3D render", "weight": 1},
-                {"tag": "CGI感", "tag_en": "CGI", "weight": 1},
-                {"tag": "塑料感", "tag_en": "plastic skin", "weight": 1},
-                {"tag": "蜡像感", "tag_en": "wax figure", "weight": 1},
-                {"tag": "过度平滑", "tag_en": "oversmoothed", "weight": 1},
-                {"tag": "过度处理", "tag_en": "overprocessed", "weight": 1},
-                {"tag": "过度渲染", "tag_en": "overrendered", "weight": 1},
-                {"tag": "滤镜痕迹", "tag_en": "filter artifacts", "weight": 1},
-                {"tag": "纹理问题", "tag_en": "texture artifacts", "weight": 1},
-                {"tag": "色带", "tag_en": "color banding", "weight": 1},
-                {"tag": "色调分离", "tag_en": "posterization", "weight": 1},
-                {"tag": "光晕伪影", "tag_en": "halo artifacts", "weight": 1},
-                {"tag": "光晕", "tag_en": "halo", "weight": 1},
-                {"tag": "伪影", "tag_en": "artifacts", "weight": 1},
-                {"tag": "故障", "tag_en": "glitch", "weight": 1},
-                {"tag": "失真", "tag_en": "distortion", "weight": 1},
-                {"tag": "重影", "tag_en": "ghosting", "weight": 1},
-                {"tag": "重影伪影", "tag_en": "double image", "weight": 1}
+                {
+                    "tag": "AI伪影",
+                    "tag_en": "AI artifact",
+                    "weight": 1
+                },
+                {
+                    "tag": "AI生成痕迹",
+                    "tag_en": "AI generated",
+                    "weight": 1
+                },
+                {
+                    "tag": "3D渲染感",
+                    "tag_en": "3D render",
+                    "weight": 1
+                },
+                {
+                    "tag": "CGI感",
+                    "tag_en": "CGI",
+                    "weight": 1
+                },
+                {
+                    "tag": "塑料感",
+                    "tag_en": "plastic skin",
+                    "weight": 1
+                },
+                {
+                    "tag": "蜡像感",
+                    "tag_en": "wax figure",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度平滑",
+                    "tag_en": "oversmoothed",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度处理",
+                    "tag_en": "overprocessed",
+                    "weight": 1
+                },
+                {
+                    "tag": "过度渲染",
+                    "tag_en": "overrendered",
+                    "weight": 1
+                },
+                {
+                    "tag": "滤镜痕迹",
+                    "tag_en": "filter artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "纹理问题",
+                    "tag_en": "texture artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "色带",
+                    "tag_en": "color banding",
+                    "weight": 1
+                },
+                {
+                    "tag": "色调分离",
+                    "tag_en": "posterization",
+                    "weight": 1
+                },
+                {
+                    "tag": "光晕伪影",
+                    "tag_en": "halo artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "光晕",
+                    "tag_en": "halo",
+                    "weight": 1
+                },
+                {
+                    "tag": "伪影",
+                    "tag_en": "artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "故障",
+                    "tag_en": "glitch",
+                    "weight": 1
+                },
+                {
+                    "tag": "失真",
+                    "tag_en": "distortion",
+                    "weight": 1
+                },
+                {
+                    "tag": "重影",
+                    "tag_en": "ghosting",
+                    "weight": 1
+                },
+                {
+                    "tag": "重影伪影",
+                    "tag_en": "double image",
+                    "weight": 1
+                },
+                {
+                    "tag": "棋盘格伪影",
+                    "tag_en": "checkerboard artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "涂抹感",
+                    "tag_en": "smudged",
+                    "weight": 1
+                },
+                {
+                    "tag": "融化感",
+                    "tag_en": "melting appearance",
+                    "weight": 1
+                },
+                {
+                    "tag": "不连贯",
+                    "tag_en": "incoherent",
+                    "weight": 1
+                },
+                {
+                    "tag": "语义断裂",
+                    "tag_en": "semantic discontinuity",
+                    "weight": 1
+                },
+                {
+                    "tag": "生成痕迹",
+                    "tag_en": "generation artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "模型伪影",
+                    "tag_en": "model artifacts",
+                    "weight": 1
+                },
+                {
+                    "tag": "结构不连续",
+                    "tag_en": "structural discontinuity",
+                    "weight": 1
+                },
+                {
+                    "tag": "画面撕裂",
+                    "tag_en": "tearing",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "风格偏差",
             "group_name_en": "Style Deviations",
             "tags": [
-                {"tag": "照片写实", "tag_en": "photorealistic", "weight": 1},
-                {"tag": "写实主义", "tag_en": "realistic", "weight": 1},
-                {"tag": "超写实", "tag_en": "hyperrealistic", "weight": 1},
-                {"tag": "真人照片", "tag_en": "photograph", "weight": 1},
-                {"tag": "3D模型", "tag_en": "3D model", "weight": 1},
-                {"tag": "3D渲染", "tag_en": "3D rendering", "weight": 1},
-                {"tag": "西方卡通", "tag_en": "western cartoon", "weight": 1},
-                {"tag": "美漫风格", "tag_en": "comic book style", "weight": 1},
-                {"tag": "素描", "tag_en": "sketch", "weight": 1},
-                {"tag": "线稿", "tag_en": "lineart", "weight": 1},
-                {"tag": "油画", "tag_en": "oil painting", "weight": 1},
-                {"tag": "水彩画", "tag_en": "watercolor", "weight": 1},
-                {"tag": "像素画", "tag_en": "pixel art", "weight": 1},
-                {"tag": "像素风格", "tag_en": "pixelated style", "weight": 1},
-                {"tag": "涂鸦", "tag_en": "graffiti", "weight": 1},
-                {"tag": "抽象", "tag_en": "abstract", "weight": 1},
-                {"tag": "极简主义", "tag_en": "minimalist", "weight": 1},
-                {"tag": "复古风格", "tag_en": "retro style", "weight": 1},
-                {"tag": "复古滤镜", "tag_en": "vintage filter", "weight": 1}
+                {
+                    "tag": "照片写实",
+                    "tag_en": "photorealistic",
+                    "weight": 1
+                },
+                {
+                    "tag": "写实主义",
+                    "tag_en": "realistic",
+                    "weight": 1
+                },
+                {
+                    "tag": "超写实",
+                    "tag_en": "hyperrealistic",
+                    "weight": 1
+                },
+                {
+                    "tag": "真人照片",
+                    "tag_en": "photograph",
+                    "weight": 1
+                },
+                {
+                    "tag": "3D模型",
+                    "tag_en": "3D model",
+                    "weight": 1
+                },
+                {
+                    "tag": "3D渲染",
+                    "tag_en": "3D rendering",
+                    "weight": 1
+                },
+                {
+                    "tag": "西方卡通",
+                    "tag_en": "western cartoon",
+                    "weight": 1
+                },
+                {
+                    "tag": "美漫风格",
+                    "tag_en": "comic book style",
+                    "weight": 1
+                },
+                {
+                    "tag": "素描",
+                    "tag_en": "sketch",
+                    "weight": 1
+                },
+                {
+                    "tag": "线稿",
+                    "tag_en": "lineart",
+                    "weight": 1
+                },
+                {
+                    "tag": "油画",
+                    "tag_en": "oil painting",
+                    "weight": 1
+                },
+                {
+                    "tag": "水彩画",
+                    "tag_en": "watercolor",
+                    "weight": 1
+                },
+                {
+                    "tag": "像素画",
+                    "tag_en": "pixel art",
+                    "weight": 1
+                },
+                {
+                    "tag": "像素风格",
+                    "tag_en": "pixelated style",
+                    "weight": 1
+                },
+                {
+                    "tag": "涂鸦",
+                    "tag_en": "graffiti",
+                    "weight": 1
+                },
+                {
+                    "tag": "抽象",
+                    "tag_en": "abstract",
+                    "weight": 1
+                },
+                {
+                    "tag": "极简主义",
+                    "tag_en": "minimalist",
+                    "weight": 1
+                },
+                {
+                    "tag": "复古风格",
+                    "tag_en": "retro style",
+                    "weight": 1
+                },
+                {
+                    "tag": "复古滤镜",
+                    "tag_en": "vintage filter",
+                    "weight": 1
+                },
+                {
+                    "tag": "二次元风格",
+                    "tag_en": "anime style",
+                    "weight": 1
+                },
+                {
+                    "tag": "日式动画",
+                    "tag_en": "Japanese animation",
+                    "weight": 1
+                },
+                {
+                    "tag": "浮世绘",
+                    "tag_en": "ukiyo-e",
+                    "weight": 1
+                },
+                {
+                    "tag": "哥特风格",
+                    "tag_en": "gothic",
+                    "weight": 1
+                },
+                {
+                    "tag": "印象派",
+                    "tag_en": "impressionist",
+                    "weight": 1
+                },
+                {
+                    "tag": "超现实主义",
+                    "tag_en": "surrealist",
+                    "weight": 1
+                },
+                {
+                    "tag": "赛博朋克",
+                    "tag_en": "cyberpunk",
+                    "weight": 1
+                },
+                {
+                    "tag": "漫画风格",
+                    "tag_en": "manga style",
+                    "weight": 1
+                },
+                {
+                    "tag": "迪士尼风格",
+                    "tag_en": "disney style",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "构图问题",
             "group_name_en": "Composition Issues",
             "tags": [
-                {"tag": "构图差", "tag_en": "bad composition", "weight": 1},
-                {"tag": "画面拥挤", "tag_en": "crowded", "weight": 1},
-                {"tag": "杂乱", "tag_en": "cluttered", "weight": 1},
-                {"tag": "背景杂乱", "tag_en": "busy background", "weight": 1},
-                {"tag": "干扰元素", "tag_en": "distracting elements", "weight": 1},
-                {"tag": "多余物体", "tag_en": "extra objects", "weight": 1},
-                {"tag": "不相关物体", "tag_en": "irrelevant objects", "weight": 1},
-                {"tag": "背景物体", "tag_en": "background objects", "weight": 1},
-                {"tag": "前景干扰", "tag_en": "foreground distraction", "weight": 1},
-                {"tag": "遮挡", "tag_en": "occluded", "weight": 1},
-                {"tag": "部分遮挡", "tag_en": "partially obscured", "weight": 1},
-                {"tag": "主体不明确", "tag_en": "unclear subject", "weight": 1},
-                {"tag": "混乱", "tag_en": "chaotic", "weight": 1},
-                {"tag": "无序", "tag_en": "disorganized", "weight": 1}
+                {
+                    "tag": "构图差",
+                    "tag_en": "bad composition",
+                    "weight": 1
+                },
+                {
+                    "tag": "画面拥挤",
+                    "tag_en": "crowded",
+                    "weight": 1
+                },
+                {
+                    "tag": "杂乱",
+                    "tag_en": "cluttered",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景杂乱",
+                    "tag_en": "busy background",
+                    "weight": 1
+                },
+                {
+                    "tag": "干扰元素",
+                    "tag_en": "distracting elements",
+                    "weight": 1
+                },
+                {
+                    "tag": "多余物体",
+                    "tag_en": "extra objects",
+                    "weight": 1
+                },
+                {
+                    "tag": "不相关物体",
+                    "tag_en": "irrelevant objects",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景物体",
+                    "tag_en": "background objects",
+                    "weight": 1
+                },
+                {
+                    "tag": "前景干扰",
+                    "tag_en": "foreground distraction",
+                    "weight": 1
+                },
+                {
+                    "tag": "遮挡",
+                    "tag_en": "occluded",
+                    "weight": 1
+                },
+                {
+                    "tag": "部分遮挡",
+                    "tag_en": "partially obscured",
+                    "weight": 1
+                },
+                {
+                    "tag": "主体不明确",
+                    "tag_en": "unclear subject",
+                    "weight": 1
+                },
+                {
+                    "tag": "混乱",
+                    "tag_en": "chaotic",
+                    "weight": 1
+                },
+                {
+                    "tag": "无序",
+                    "tag_en": "disorganized",
+                    "weight": 1
+                },
+                {
+                    "tag": "主体过小",
+                    "tag_en": "subject too small",
+                    "weight": 1
+                },
+                {
+                    "tag": "主体过大",
+                    "tag_en": "subject too large",
+                    "weight": 1
+                },
+                {
+                    "tag": "主体偏移",
+                    "tag_en": "subject off-center",
+                    "weight": 1
+                },
+                {
+                    "tag": "留白过多",
+                    "tag_en": "too much negative space",
+                    "weight": 1
+                },
+                {
+                    "tag": "裁切不当",
+                    "tag_en": "bad cropping",
+                    "weight": 1
+                },
+                {
+                    "tag": "缺乏焦点",
+                    "tag_en": "lack of focus",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "色彩问题",
             "group_name_en": "Color Issues",
             "tags": [
-                {"tag": "色彩偏差", "tag_en": "color deviation", "weight": 1},
-                {"tag": "色彩失真", "tag_en": "color distortion", "weight": 1},
-                {"tag": "色彩不自然", "tag_en": "unnatural colors", "weight": 1},
-                {"tag": "过饱和", "tag_en": "oversaturated", "weight": 1},
-                {"tag": "欠饱和", "tag_en": "undersaturated", "weight": 1},
-                {"tag": "褪色", "tag_en": "faded colors", "weight": 1},
-                {"tag": "色彩偏移", "tag_en": "color shift", "weight": 1},
-                {"tag": "色温错误", "tag_en": "wrong color temperature", "weight": 1},
-                {"tag": "单色", "tag_en": "monochrome", "weight": 1},
-                {"tag": "黑白", "tag_en": "grayscale", "weight": 1},
-                {"tag": "暗淡", "tag_en": "muted colors", "weight": 1},
-                {"tag": "荧光色", "tag_en": "neon colors", "weight": 1},
-                {"tag": "刺眼色彩", "tag_en": "harsh colors", "weight": 1}
+                {
+                    "tag": "色彩偏差",
+                    "tag_en": "color deviation",
+                    "weight": 1
+                },
+                {
+                    "tag": "色彩失真",
+                    "tag_en": "color distortion",
+                    "weight": 1
+                },
+                {
+                    "tag": "色彩不自然",
+                    "tag_en": "unnatural colors",
+                    "weight": 1
+                },
+                {
+                    "tag": "过饱和",
+                    "tag_en": "oversaturated",
+                    "weight": 1
+                },
+                {
+                    "tag": "欠饱和",
+                    "tag_en": "undersaturated",
+                    "weight": 1
+                },
+                {
+                    "tag": "褪色",
+                    "tag_en": "faded colors",
+                    "weight": 1
+                },
+                {
+                    "tag": "色彩偏移",
+                    "tag_en": "color shift",
+                    "weight": 1
+                },
+                {
+                    "tag": "色温错误",
+                    "tag_en": "wrong color temperature",
+                    "weight": 1
+                },
+                {
+                    "tag": "单色",
+                    "tag_en": "monochrome",
+                    "weight": 1
+                },
+                {
+                    "tag": "黑白",
+                    "tag_en": "grayscale",
+                    "weight": 1
+                },
+                {
+                    "tag": "暗淡",
+                    "tag_en": "muted colors",
+                    "weight": 1
+                },
+                {
+                    "tag": "荧光色",
+                    "tag_en": "neon colors",
+                    "weight": 1
+                },
+                {
+                    "tag": "刺眼色彩",
+                    "tag_en": "harsh colors",
+                    "weight": 1
+                },
+                {
+                    "tag": "色彩冲突",
+                    "tag_en": "clashing colors",
+                    "weight": 1
+                },
+                {
+                    "tag": "肤色异常",
+                    "tag_en": "unnatural skin tone",
+                    "weight": 1
+                },
+                {
+                    "tag": "肤色过黄",
+                    "tag_en": "yellow skin tone",
+                    "weight": 1
+                },
+                {
+                    "tag": "肤色苍白",
+                    "tag_en": "pale skin",
+                    "weight": 1
+                },
+                {
+                    "tag": "色彩溢出",
+                    "tag_en": "color bleeding",
+                    "weight": 1
+                },
+                {
+                    "tag": "色彩不协调",
+                    "tag_en": "discordant colors",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "文字与标志",
             "group_name_en": "Text & Logos",
             "tags": [
-                {"tag": "文字", "tag_en": "text", "weight": 1},
-                {"tag": "字体", "tag_en": "font", "weight": 1},
-                {"tag": "字母", "tag_en": "letters", "weight": 1},
-                {"tag": "数字", "tag_en": "numbers", "weight": 1},
-                {"tag": "标志", "tag_en": "logo", "weight": 1},
-                {"tag": "品牌", "tag_en": "brand", "weight": 1},
-                {"tag": "商标", "tag_en": "trademark", "weight": 1},
-                {"tag": "版权标志", "tag_en": "copyright", "weight": 1},
-                {"tag": "用户名", "tag_en": "username", "weight": 1},
-                {"tag": "URL", "tag_en": "url", "weight": 1},
-                {"tag": "链接", "tag_en": "link", "weight": 1},
-                {"tag": "二维码", "tag_en": "QR code", "weight": 1},
-                {"tag": "条形码", "tag_en": "barcode", "weight": 1},
-                {"tag": "表情符号", "tag_en": "emoji", "weight": 1}
+                {
+                    "tag": "文字",
+                    "tag_en": "text",
+                    "weight": 1
+                },
+                {
+                    "tag": "字体",
+                    "tag_en": "font",
+                    "weight": 1
+                },
+                {
+                    "tag": "字母",
+                    "tag_en": "letters",
+                    "weight": 1
+                },
+                {
+                    "tag": "数字",
+                    "tag_en": "numbers",
+                    "weight": 1
+                },
+                {
+                    "tag": "标志",
+                    "tag_en": "logo",
+                    "weight": 1
+                },
+                {
+                    "tag": "品牌",
+                    "tag_en": "brand",
+                    "weight": 1
+                },
+                {
+                    "tag": "商标",
+                    "tag_en": "trademark",
+                    "weight": 1
+                },
+                {
+                    "tag": "版权标志",
+                    "tag_en": "copyright",
+                    "weight": 1
+                },
+                {
+                    "tag": "用户名",
+                    "tag_en": "username",
+                    "weight": 1
+                },
+                {
+                    "tag": "URL",
+                    "tag_en": "url",
+                    "weight": 1
+                },
+                {
+                    "tag": "链接",
+                    "tag_en": "link",
+                    "weight": 1
+                },
+                {
+                    "tag": "二维码",
+                    "tag_en": "QR code",
+                    "weight": 1
+                },
+                {
+                    "tag": "条形码",
+                    "tag_en": "barcode",
+                    "weight": 1
+                },
+                {
+                    "tag": "表情符号",
+                    "tag_en": "emoji",
+                    "weight": 1
+                },
+                {
+                    "tag": "日期",
+                    "tag_en": "date",
+                    "weight": 1
+                },
+                {
+                    "tag": "时间戳",
+                    "tag_en": "timestamp",
+                    "weight": 1
+                },
+                {
+                    "tag": "标签",
+                    "tag_en": "label",
+                    "weight": 1
+                },
+                {
+                    "tag": "标题",
+                    "tag_en": "title",
+                    "weight": 1
+                },
+                {
+                    "tag": "字幕",
+                    "tag_en": "subtitle",
+                    "weight": 1
+                },
+                {
+                    "tag": "注释",
+                    "tag_en": "annotation",
+                    "weight": 1
+                }
             ]
         },
         {
             "group_name": "常见负面词",
             "group_name_en": "Common Negative",
             "tags": [
-                {"tag": "NSFW", "tag_en": "nsfw", "weight": 1},
-                {"tag": "裸露", "tag_en": "nude", "weight": 1},
-                {"tag": "色情", "tag_en": "pornographic", "weight": 1},
-                {"tag": "血腥", "tag_en": "gore", "weight": 1},
-                {"tag": "暴力", "tag_en": "violence", "weight": 1},
-                {"tag": "恐怖", "tag_en": "horror", "weight": 1},
-                {"tag": "惊悚", "tag_en": "disturbing", "weight": 1},
-                {"tag": "恶心", "tag_en": "gross", "weight": 1},
-                {"tag": "令人不适", "tag_en": "uncomfortable", "weight": 1},
-                {"tag": "怪异", "tag_en": "weird", "weight": 1},
-                {"tag": "恐怖谷", "tag_en": "uncanny valley", "weight": 1},
-                {"tag": "令人不安", "tag_en": "unsettling", "weight": 1},
-                {"tag": "噩梦般", "tag_en": "nightmarish", "weight": 1},
-                {"tag": "黑暗", "tag_en": "dark", "weight": 1},
-                {"tag": "病态", "tag_en": "morbid", "weight": 1},
-                {"tag": "病态的", "tag_en": "sickly", "weight": 1},
-                {"tag": "肮脏", "tag_en": "dirty", "weight": 1},
-                {"tag": "污渍", "tag_en": "stained", "weight": 1},
-                {"tag": "污垢", "tag_en": "grime", "weight": 1},
-                {"tag": "破损", "tag_en": "broken", "weight": 1},
-                {"tag": "损坏", "tag_en": "damaged", "weight": 1},
-                {"tag": "腐烂", "tag_en": "rotten", "weight": 1}
+                {
+                    "tag": "NSFW",
+                    "tag_en": "nsfw",
+                    "weight": 1
+                },
+                {
+                    "tag": "裸露",
+                    "tag_en": "nude",
+                    "weight": 1
+                },
+                {
+                    "tag": "色情",
+                    "tag_en": "pornographic",
+                    "weight": 1
+                },
+                {
+                    "tag": "血腥",
+                    "tag_en": "gore",
+                    "weight": 1
+                },
+                {
+                    "tag": "暴力",
+                    "tag_en": "violence",
+                    "weight": 1
+                },
+                {
+                    "tag": "恐怖",
+                    "tag_en": "horror",
+                    "weight": 1
+                },
+                {
+                    "tag": "惊悚",
+                    "tag_en": "disturbing",
+                    "weight": 1
+                },
+                {
+                    "tag": "恶心",
+                    "tag_en": "gross",
+                    "weight": 1
+                },
+                {
+                    "tag": "令人不适",
+                    "tag_en": "uncomfortable",
+                    "weight": 1
+                },
+                {
+                    "tag": "怪异",
+                    "tag_en": "weird",
+                    "weight": 1
+                },
+                {
+                    "tag": "恐怖谷",
+                    "tag_en": "uncanny valley",
+                    "weight": 1
+                },
+                {
+                    "tag": "令人不安",
+                    "tag_en": "unsettling",
+                    "weight": 1
+                },
+                {
+                    "tag": "噩梦般",
+                    "tag_en": "nightmarish",
+                    "weight": 1
+                },
+                {
+                    "tag": "黑暗",
+                    "tag_en": "dark",
+                    "weight": 1
+                },
+                {
+                    "tag": "病态",
+                    "tag_en": "morbid",
+                    "weight": 1
+                },
+                {
+                    "tag": "病态的",
+                    "tag_en": "sickly",
+                    "weight": 1
+                },
+                {
+                    "tag": "肮脏",
+                    "tag_en": "dirty",
+                    "weight": 1
+                },
+                {
+                    "tag": "污渍",
+                    "tag_en": "stained",
+                    "weight": 1
+                },
+                {
+                    "tag": "污垢",
+                    "tag_en": "grime",
+                    "weight": 1
+                },
+                {
+                    "tag": "破损",
+                    "tag_en": "broken",
+                    "weight": 1
+                },
+                {
+                    "tag": "损坏",
+                    "tag_en": "damaged",
+                    "weight": 1
+                },
+                {
+                    "tag": "腐烂",
+                    "tag_en": "rotten",
+                    "weight": 1
+                },
+                {
+                    "tag": "丑陋",
+                    "tag_en": "ugly",
+                    "weight": 1
+                },
+                {
+                    "tag": "可怕",
+                    "tag_en": "scary",
+                    "weight": 1
+                },
+                {
+                    "tag": "令人反感",
+                    "tag_en": "repulsive",
+                    "weight": 1
+                },
+                {
+                    "tag": "粗俗",
+                    "tag_en": "vulgar",
+                    "weight": 1
+                },
+                {
+                    "tag": "低俗",
+                    "tag_en": "tasteless",
+                    "weight": 1
+                },
+                {
+                    "tag": "冒犯",
+                    "tag_en": "offensive",
+                    "weight": 1
+                },
+                {
+                    "tag": "发霉",
+                    "tag_en": "moldy",
+                    "weight": 1
+                },
+                {
+                    "tag": "粘稠",
+                    "tag_en": "slimy",
+                    "weight": 1
+                },
+                {
+                    "tag": "生锈",
+                    "tag_en": "rusty",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "group_name": "背景/环境问题",
+            "group_name_en": "Background/Environment Issues",
+            "tags": [
+                {
+                    "tag": "糟糕背景",
+                    "tag_en": "bad background",
+                    "weight": 1
+                },
+                {
+                    "tag": "空白背景",
+                    "tag_en": "empty background",
+                    "weight": 1
+                },
+                {
+                    "tag": "简单背景",
+                    "tag_en": "simple background",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景绘制不良",
+                    "tag_en": "poorly drawn background",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景模糊",
+                    "tag_en": "blurry background",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景缺失",
+                    "tag_en": "missing background",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景混乱",
+                    "tag_en": "messy background",
+                    "weight": 1
+                },
+                {
+                    "tag": "纯色背景",
+                    "tag_en": "solid background",
+                    "weight": 1
+                },
+                {
+                    "tag": "渐变背景",
+                    "tag_en": "gradient background",
+                    "weight": 1
+                },
+                {
+                    "tag": "背景色块",
+                    "tag_en": "color block background",
+                    "weight": 1
+                },
+                {
+                    "tag": "环境单调",
+                    "tag_en": "boring environment",
+                    "weight": 1
+                },
+                {
+                    "tag": "环境缺失",
+                    "tag_en": "missing environment",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "group_name": "透视/比例问题",
+            "group_name_en": "Perspective/Proportion Issues",
+            "tags": [
+                {
+                    "tag": "透视错误",
+                    "tag_en": "perspective errors",
+                    "weight": 1
+                },
+                {
+                    "tag": "透视失真",
+                    "tag_en": "perspective distortion",
+                    "weight": 1
+                },
+                {
+                    "tag": "视角错误",
+                    "tag_en": "wrong perspective",
+                    "weight": 1
+                },
+                {
+                    "tag": "比例错误",
+                    "tag_en": "wrong scale",
+                    "weight": 1
+                },
+                {
+                    "tag": "大小不一致",
+                    "tag_en": "size inconsistency",
+                    "weight": 1
+                },
+                {
+                    "tag": "远近失调",
+                    "tag_en": "depth inconsistency",
+                    "weight": 1
+                },
+                {
+                    "tag": "透视消失点错误",
+                    "tag_en": "vanishing point error",
+                    "weight": 1
+                },
+                {
+                    "tag": "倾斜",
+                    "tag_en": "tilted",
+                    "weight": 1
+                },
+                {
+                    "tag": "变形",
+                    "tag_en": "warped",
+                    "weight": 1
+                },
+                {
+                    "tag": "扭曲",
+                    "tag_en": "skewed",
+                    "weight": 1
+                },
+                {
+                    "tag": "景深错误",
+                    "tag_en": "wrong depth of field",
+                    "weight": 1
+                },
+                {
+                    "tag": "前大后小失调",
+                    "tag_en": "scale inconsistency",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "group_name": "双重/重影问题",
+            "group_name_en": "Duplication Issues",
+            "tags": [
+                {
+                    "tag": "双重影像",
+                    "tag_en": "double vision",
+                    "weight": 1
+                },
+                {
+                    "tag": "重影",
+                    "tag_en": "ghosting",
+                    "weight": 1
+                },
+                {
+                    "tag": "模糊重影",
+                    "tag_en": "blurred duplication",
+                    "weight": 1
+                },
+                {
+                    "tag": "重叠",
+                    "tag_en": "overlap",
+                    "weight": 1
+                },
+                {
+                    "tag": "画面分裂",
+                    "tag_en": "split image",
+                    "weight": 1
+                },
+                {
+                    "tag": "拖影",
+                    "tag_en": "motion trail",
+                    "weight": 1
+                },
+                {
+                    "tag": "残影",
+                    "tag_en": "afterimage",
+                    "weight": 1
+                },
+                {
+                    "tag": "重复物体",
+                    "tag_en": "repeated objects",
+                    "weight": 1
+                },
+                {
+                    "tag": "多重影像",
+                    "tag_en": "multiple images",
+                    "weight": 1
+                },
+                {
+                    "tag": "画面复制",
+                    "tag_en": "image duplication",
+                    "weight": 1
+                },
+                {
+                    "tag": "半透明重叠",
+                    "tag_en": "translucent overlap",
+                    "weight": 1
+                },
+                {
+                    "tag": "错位重影",
+                    "tag_en": "misaligned ghosting",
+                    "weight": 1
+                }
             ]
         }
     ]
