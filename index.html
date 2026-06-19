@@ -45,9 +45,9 @@
         .main-tabs {
             display: flex;
             overflow-x: auto;
-            gap: 0;
-            padding: 0;
-            background: var(--bg-secondary);
+            gap: 6px;
+            padding: 8px 12px 0;
+            background: var(--bg);
             border-bottom: 1px solid var(--border);
             scrollbar-width: none;
             -ms-overflow-style: none;
@@ -62,9 +62,8 @@
 
         .main-tab {
             flex-shrink: 0;
-            padding: 10px 16px;
+            padding: 6px 14px;
             border: none;
-            border-right: 1px solid var(--border);
             background: transparent;
             color: var(--text-secondary);
             font-family: 'Noto Sans SC', sans-serif;
@@ -76,21 +75,15 @@
             border-radius: 4px;
         }
 
-        .main-tab:last-child {
-            border-right: none;
-        }
-
         .main-tab.active {
-            background: var(--bg);
+            background: var(--accent);
             color: var(--accent-text);
             font-weight: 500;
-            border-bottom: 2px solid var(--accent-text);
-            margin-bottom: -1px;
         }
 
         .main-tab.tab-negative.active {
+            background: var(--negative-bg);
             color: var(--negative-text);
-            border-bottom-color: var(--negative-text);
         }
 
         /* Content Area */
