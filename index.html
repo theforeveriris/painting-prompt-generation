@@ -21,6 +21,8 @@
             --accent-text: #a855f7;
             --accent-secondary: #fbcfe8;
             --accent-secondary-text: #db2777;
+            --negative-bg: #fee2e2;
+            --negative-text: #dc2626;
         }
 
         * {
@@ -83,6 +85,11 @@
             font-weight: 500;
             border-bottom: 2px solid var(--accent-text);
             margin-bottom: -1px;
+        }
+
+        .main-tab.tab-negative.active {
+            color: var(--negative-text);
+            border-bottom-color: var(--negative-text);
         }
 
         /* Content Area */
@@ -160,6 +167,12 @@
             font-weight: 600;
         }
 
+        .tag.selected-negative {
+            background: var(--negative-bg);
+            color: var(--negative-text);
+            font-weight: 600;
+        }
+
         .tag .tag-en {
             font-size: 0.65rem;
             opacity: 0.6;
@@ -169,6 +182,10 @@
         }
 
         .tag.selected .tag-en {
+            opacity: 0.7;
+        }
+
+        .tag.selected-negative .tag-en {
             opacity: 0.7;
         }
 
@@ -215,6 +232,25 @@
             gap: 8px;
         }
 
+        .prompt-section {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .prompt-label {
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            padding-left: 2px;
+        }
+
+        .prompt-label.label-negative {
+            color: var(--negative-text);
+            opacity: 0.7;
+        }
+
         .prompt-preview {
             background: var(--bg-secondary);
             border: 1px solid var(--border);
@@ -233,6 +269,10 @@
             content: '点击标签生成提示词...';
             color: var(--text-muted);
             font-weight: 300;
+        }
+
+        .prompt-preview.preview-negative:empty::before {
+            content: '点击标签添加负面提示词...';
         }
 
         .btn-group {
@@ -347,7 +387,14 @@
     <div class="bottom-bar" id="bottomBar">
         <div class="bottom-bar-toggle" id="bottomBarToggle"></div>
         <div class="bottom-bar-inner">
-            <div class="prompt-preview" id="promptPreview"></div>
+            <div class="prompt-section">
+                <span class="prompt-label">正面提示词 Positive Prompt</span>
+                <div class="prompt-preview" id="promptPreview"></div>
+            </div>
+            <div class="prompt-section">
+                <span class="prompt-label label-negative">负面提示词 Negative Prompt</span>
+                <div class="prompt-preview preview-negative" id="negativePreview"></div>
+            </div>
             <div class="btn-group">
                 <button class="btn" id="btnClear">清空</button>
                 <button class="btn btn-primary" id="btnCopy">复制提示词</button>
@@ -363,13 +410,16 @@
             'data/clothing.json',
             'data/pose.json',
             'data/scene.json',
-            'data/style.json'
+            'data/style.json',
+            'data/negative.json'
         ];
 
         let categories = [];
         let selectedTags = new Map();
+        let selectedNegativeTags = new Map();
         let currentCategory = 0;
         let isBottomBarCollapsed = false;
+        const NEGATIVE_INDEX = 5; // index of negative.json in DATA_FILES
 
         async function loadData() {
             const promises = DATA_FILES.map(f => fetch(f).then(r => r.json()));
@@ -381,11 +431,14 @@
 
         function renderTabs() {
             const container = document.getElementById('mainTabs');
-            container.innerHTML = categories.map((cat, i) => `
-                <button class="main-tab ${i === 0 ? 'active' : ''}" data-index="${i}">
-                    ${cat.category_name}
-                </button>
-            `).join('');
+            container.innerHTML = categories.map((cat, i) => {
+                const isNeg = i === NEGATIVE_INDEX;
+                return `
+                    <button class="main-tab ${i === 0 ? 'active' : ''} ${isNeg ? 'tab-negative' : ''}" data-index="${i}">
+                        ${cat.category_name}
+                    </button>
+                `;
+            }).join('');
 
             container.querySelectorAll('.main-tab').forEach(tab => {
                 tab.addEventListener('click', () => {
@@ -406,18 +459,23 @@
         function renderCategory(idx) {
             const cat = categories[idx];
             const container = document.getElementById('content');
+            const isNeg = idx === NEGATIVE_INDEX;
+
             container.innerHTML = `
                 <div class="category-section active">
-                    ${cat.groups.map(g => renderGroup(g, cat.category)).join('')}
+                    ${cat.groups.map(g => renderGroup(g, cat.category, isNeg)).join('')}
                 </div>
             `;
 
             container.querySelectorAll('.tag').forEach(tag => {
-                tag.addEventListener('click', () => toggleTag(tag));
+                tag.addEventListener('click', () => toggleTag(tag, isNeg));
             });
         }
 
-        function renderGroup(group, category) {
+        function renderGroup(group, category, isNegative) {
+            const tagMap = isNegative ? selectedNegativeTags : selectedTags;
+            const selectedClass = isNegative ? 'selected-negative' : 'selected';
+
             return `
                 <div class="group">
                     <div class="group-header">
@@ -428,12 +486,13 @@
                         <div class="tags-grid">
                             ${group.tags.map(t => {
                                 const key = `${category}:${t.tag}`;
-                                const isSelected = selectedTags.has(key);
+                                const isSelected = tagMap.has(key);
                                 return `
-                                    <span class="tag ${isSelected ? 'selected' : ''}"
+                                    <span class="tag ${isSelected ? selectedClass : ''}"
                                           data-category="${category}"
                                           data-tag="${t.tag}"
-                                          data-tag-en="${t.tag_en}">
+                                          data-tag-en="${t.tag_en}"
+                                          data-negative="${isNegative}">
                                         ${t.tag}
                                         <span class="tag-en">${t.tag_en}</span>
                                     </span>
@@ -445,18 +504,28 @@
             `;
         }
 
-        function toggleTag(el) {
+        function toggleTag(el, isNegative) {
             const category = el.dataset.category;
             const tag = el.dataset.tag;
             const tagEn = el.dataset.tagEn;
             const key = `${category}:${tag}`;
 
-            if (selectedTags.has(key)) {
-                selectedTags.delete(key);
-                el.classList.remove('selected');
+            if (isNegative) {
+                if (selectedNegativeTags.has(key)) {
+                    selectedNegativeTags.delete(key);
+                    el.classList.remove('selected-negative');
+                } else {
+                    selectedNegativeTags.set(key, { tag, tagEn, category });
+                    el.classList.add('selected-negative');
+                }
             } else {
-                selectedTags.set(key, { tag, tagEn, category });
-                el.classList.add('selected');
+                if (selectedTags.has(key)) {
+                    selectedTags.delete(key);
+                    el.classList.remove('selected');
+                } else {
+                    selectedTags.set(key, { tag, tagEn, category });
+                    el.classList.add('selected');
+                }
             }
 
             updatePreview();
@@ -467,17 +536,25 @@
             const preview = document.getElementById('promptPreview');
             if (selectedTags.size === 0) {
                 preview.textContent = '';
-                return;
+            } else {
+                const tags = Array.from(selectedTags.values());
+                preview.textContent = tags.map(t => t.tagEn).join(', ');
             }
-            const tags = Array.from(selectedTags.values());
-            const prompt = tags.map(t => t.tagEn).join(', ');
-            preview.textContent = prompt;
+
+            const negPreview = document.getElementById('negativePreview');
+            if (selectedNegativeTags.size === 0) {
+                negPreview.textContent = '';
+            } else {
+                const tags = Array.from(selectedNegativeTags.values());
+                negPreview.textContent = tags.map(t => t.tagEn).join(', ');
+            }
         }
 
         function updateCount() {
             const count = document.getElementById('selectedCount');
-            count.textContent = selectedTags.size;
-            count.classList.toggle('show', selectedTags.size > 0);
+            const total = selectedTags.size + selectedNegativeTags.size;
+            count.textContent = total;
+            count.classList.toggle('show', total > 0);
         }
 
         function showToast(msg) {
@@ -495,14 +572,21 @@
         });
 
         document.getElementById('btnCopy').addEventListener('click', async () => {
-            if (selectedTags.size === 0) {
+            if (selectedTags.size === 0 && selectedNegativeTags.size === 0) {
                 showToast('请先选择标签');
                 return;
             }
-            const tags = Array.from(selectedTags.values());
-            const prompt = tags.map(t => t.tagEn).join(', ');
+            const posTags = Array.from(selectedTags.values());
+            const negTags = Array.from(selectedNegativeTags.values());
+            const positive = posTags.map(t => t.tagEn).join(', ');
+            const negative = negTags.map(t => t.tagEn).join(', ');
+
+            let output = '';
+            if (positive) output += positive;
+            if (negative) output += '\n\nNegative prompt: ' + negative;
+
             try {
-                await navigator.clipboard.writeText(prompt);
+                await navigator.clipboard.writeText(output);
                 showToast('已复制到剪贴板');
             } catch {
                 showToast('复制失败，请手动复制');
@@ -511,7 +595,10 @@
 
         document.getElementById('btnClear').addEventListener('click', () => {
             selectedTags.clear();
-            document.querySelectorAll('.tag.selected').forEach(t => t.classList.remove('selected'));
+            selectedNegativeTags.clear();
+            document.querySelectorAll('.tag.selected, .tag.selected-negative').forEach(t => {
+                t.classList.remove('selected', 'selected-negative');
+            });
             updatePreview();
             updateCount();
             showToast('已清空');
